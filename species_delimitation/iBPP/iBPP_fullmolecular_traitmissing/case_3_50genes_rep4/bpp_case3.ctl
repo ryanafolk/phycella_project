@@ -21,7 +21,7 @@
     cleandata = 0 * remove sites with ambiguity data (1:yes, 0:no)?
     
     species&tree = 11      P21 P15 P31 P6 P34 P5 P16 P27 P3 P1 P4
-                    3 4 3 5 3 2 3 3 3 3 5
+                    2 4 3 5 3 2 3 3 3 3 5
                     (P21,(((P15,P31),(P6,P34)),(P5,(P16,(P27,(P3,(P1,P4)))))));
     * starting tree from astral population allele table
     
