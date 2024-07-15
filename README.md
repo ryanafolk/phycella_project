@@ -38,5 +38,8 @@ This directory contains the chloroplast concatenated analysis files. The full li
 ### concatenated_nuclear
 This directory contains the nuclear concatenated analysis files. The full list of best trees and bootstrap trees are contains in `besttree` and `bootstrap subdirectories` respectively. The `combined` subdirectory contains the best-scoring tree with mapped bootstrap values.
 
+## coalescent_simulation
+This directory contains code for performing the coalescent simulation. Two trees were used for this purpose: the ASTRAL trees treating (1) individuals as tips (`individual_trees`) and (2) populations as tips (`population_trees`). In each of these, there are nuclear and chloroplast trees. The nuclear trees have branch lengths in coalescent units, and these were scaled to 2X or 4X (see Main Text). The simulated gene trees based on this scaling are also in this directory. Files with "namefixed" have taxon names matching the chloroplast. For each of the analyses, there is a Robinson-Foulds test directory (i.e., `robinson_foulds_test_individualtree` and `robinson_foulds_test_populationtree`). In each of these is the Python script used to generate the distances (`enumerate_robinsonfoulds.py`) and an Excel file containing the distances and a one-tailed T-test function.
+
 ## rename_script
 This directory contains a general-use script relating plate and well names to taxa and population codes; versions of this script are given in some directories where modifications were necessary.
