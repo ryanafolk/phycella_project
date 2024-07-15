@@ -46,3 +46,6 @@ This directory contains code for performing the coalescent simulation. Two trees
 
 ## rename_script
 This directory contains a general-use script relating plate and well names to taxa and population codes; versions of this script are given in some directories where modifications were necessary.
+
+## baits
+`Phycella_Probes.fas` contains the probes synthesized for target capture. `all_loci_phycella.fasta` gives target sequences for the purpose of read assembly.
