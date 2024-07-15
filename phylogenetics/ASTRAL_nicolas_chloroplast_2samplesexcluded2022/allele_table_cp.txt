@@ -1,0 +1,32 @@
+Rhodolirium montanum:OG1i2_Rmont,OG1i3_Rmont,OG1i4_Rmont
+Phycella cyrtanthoides:P1i1_Pcyrt,P1i3_Pcyrt,P1i5_Pcyrt,P2i1_Pcyrt,P2i4_Pcyrt,P2i5_Pcyrt,P3i1_Pcyrt,P3i2_Pcyrt,P3i3_Pcyrt,P4i1_Pcyrt,P4i2_Pcyrt,P4i3_Pcyrt,P4i4_Pcyrt,P4i5_Pcyrt,P5i1_Pcyrt,P5i2_Pcyrt,P7i1_Pcyrt,P7i2_Pcyrt,P7i4_Pcyrt,P16i2_Pcyrt,P16i3_Pcyrt,P16i4_Pcyrt
+Phycella scarlatina:P6i1_Pscar,P6i2_Pscar,P6i3_Pscar,P6i4_Pscar,P6i5_Pscar,P34i1_Pscar,P34i2_Pscar,P34i3_Pscar
+Placea amoena:P8i2_Pamoe,P8i3_Pamoe,P8i5_Pamoe,P9i1_Pamoe,P9i2_Pamoe,P9i4_Pamoe,P10i3_Pamoe,P10i4_Pamoe,P10i5_Pamoe
+Placea ornata:P11i2_Porna,P11i4_Porna,P11i5_Porna,P12i2_Porna,P12i3_Porna,P14i1_Porna,P14i2_Porna,P14i4_Porna,P14i5_Porna,P33i1_Porna,P33i3_Porna,P33i5_Porna
+Placea lutea:P13i1_Plute,P13i2_Plute,P35i1_Plute,P35i3_Plute,P35i4_Plute
+Phycella angustifolia:P15i1_Pangu,P15i2_Pangu,P15i3_Pangu,P15i5_Pangu,P31i2_Pangu,P31i4_Pangu,P31i5_Pangu
+Placea arzae:P17i2_Parza,P17i4_Parza,P17i5_Parza,P19i1_Parza,P19i2_Parza,P19i5_Parza,P32i1_Parza,P32i2_Parza
+Placea davidii:P18i1_Pdavi,P18i2_Pdavi,P18i3_Pdavi,P18i4_Pdavi,P18i5_Pdavi
+Placea quilapilun:P20i1_Pquil,P20i2_Pquil,P20i3_Pquil,P20i5_Pquil
+Phycella cyrtanthoides:P21i2_Pcyrt,P21i4_Pcyrt,P22i1_Pcyrt,P22i3_Pcyrt,P23i1_Pcyrt,P23i2_Pcyrt,P24i1_Pcyrt,P24i2_Pcyrt,P24i3_Pcyrt,P25i1_Pcyrt,P25i2_Pcyrt,P26i1_Pcyrt,P26i2_Pcyrt,P26i3_Pcyrt,P27i2_Pcyrt,P27i4_Pcyrt,P27i5_Pcyrt,P29i1_Pcyrt,P29i2_Pcyrt,P30i2_Pcyrt,P30i3_Pcyrt,P30i4_Pcyrt
+Phycella australis:P36i1_Paust,P36i4_Paust,P36i5_Paust,P37i2_Paust,P37i4_Paust,P39i1_Paust,P39i3_Paust,P39i4_Paust,P40i3_Paust,P40i4_Paust,P40i5_Paust
+Phycella chilensis:P41i1_Pchil,P41i3_Pchil,P41i5_Pchil,P42i1_Pchil,P42i2_Pchil,P43i2_Pchil,P43i3_Pchil,P43i5_Pchil,P44i1_Pchil,P44i2_Pchil,P28i1_Pchil,P28i3_Pchil,P38i1_Pchil,P38i3_Pchil
+Phycella fulgens:P45i2_Pfulg,P45i5_Pfulg,P45i6_Pfulg
+Phycella maulensis:P46i2_Pmaul,P46i4_Pmaul,P46i7_Pmaul,P47i2_Pmaul,P47i3_Pmaul
+Traubia modesta:OG2i1_Tmode,OG2i2_Tmode,OG2i3_Tmode
+Eremolirion laetum:NG1022_Elaet,NG1069_Elaet
+Rhodolirion andicola:OG3I1_Randi,OG3i2_Randi
+Hippeastrum dutilhianum:NG4400_Hduti
+Zephyranthes mesochloa:BEL4494_Zmeso
+Zephyranthes cisandina:NG2811_Zcisa
+Zephyranthes montana:NG243_Zmont
+Zephyranthes cf. monantha:NG5471_Zmona
+Zephyranthes aff. advena:NG4932I3_Zadve
+Hippeastrum cipoanum: H_cipoanum_119_cpgenome_annotated_3.0
+Zephyranthes tenuiflora:NG4922i3_Ztenui
+Rhodolirium laetum:Rhodolirium_laetum
+Rhodolirium montanum:Rhodolirium_montanum
+Traubia modesta:Traubia_modesta
+Griffinia nocturna:Griffinia_nocturna
+Griffinia rochae:Griffinia_rochae
+Griffinia hyacinthina:Griffinia_hyacinthina

@@ -1,0 +1,18 @@
+Time used: 9:31:48
+PrSplit = 0.500000
+rj algorithm 1: new theta from G(a=2.00, m=1.00)
+
+Tree frequencies (Ancestral nodes in order:   8 P22P26P23P24P25P30P2  9 P22P26P23P24P25 10 P26P23P24P25 11 P23P24P25 12 P24P25 13 P30P2) 
+   48  110000   107751  0.538755
+   56  111000    39348  0.196740
+   60  111100    22801  0.114005
+   62  111110    30100  0.150500
+
+Guide tree with posterior probability for presence of nodes
+((P22, (P26, (P23, (P24, P25)'#0.15050')'#0.26450')'#0.46125')'#1.00000', (P30, P2))'#1.00000';
+
+Summarizing parameters for the MAP tree 110000
+
+53814 records, 12 variables
+   Collecting min, max, and mean   9:31:48
+   Collecting median, percentiles

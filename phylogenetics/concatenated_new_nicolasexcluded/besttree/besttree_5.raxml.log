@@ -1,0 +1,6838 @@
+
+RAxML-NG v. 0.7.0 BETA released on 22.10.2018 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called as follows:
+
+raxml-ng --model partition.txt --msa concatenated_new.phy --prefix besttree_5 --seed 25175 --tree pars{1} --threads 24
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (1)
+  random seed: 25175
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: linked (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (24 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: concatenated_new.phy
+[00:00:02] Loaded alignment with 154 taxa and 2034647 sites
+
+Alignment comprises 1125 partitions and 1267091 patterns
+
+Partition 0: L10044.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 1255
+Gaps: 20.77 %
+Invariant sites: 7.22 %
+
+Partition 1: L10096.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 1118
+Gaps: 17.70 %
+Invariant sites: 13.82 %
+
+Partition 2: L10098.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1626 / 1124
+Gaps: 24.14 %
+Invariant sites: 7.26 %
+
+Partition 3: L10121.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1122
+Gaps: 23.88 %
+Invariant sites: 16.68 %
+
+Partition 4: L10156.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1713 / 833
+Gaps: 23.36 %
+Invariant sites: 13.37 %
+
+Partition 5: L10160.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1795 / 782
+Gaps: 15.68 %
+Invariant sites: 16.82 %
+
+Partition 6: L10162.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1828 / 854
+Gaps: 17.96 %
+Invariant sites: 19.31 %
+
+Partition 7: L10189.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1815 / 984
+Gaps: 15.37 %
+Invariant sites: 14.38 %
+
+Partition 8: L10230.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1845 / 1067
+Gaps: 15.91 %
+Invariant sites: 15.28 %
+
+Partition 9: L1024.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2304 / 1074
+Gaps: 12.26 %
+Invariant sites: 10.50 %
+
+Partition 10: L1025.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1636 / 948
+Gaps: 22.77 %
+Invariant sites: 21.82 %
+
+Partition 11: L10304.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1592
+Gaps: 24.31 %
+Invariant sites: 4.97 %
+
+Partition 12: L10359.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1657 / 1002
+Gaps: 21.86 %
+Invariant sites: 22.15 %
+
+Partition 13: L10383.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1785 / 858
+Gaps: 17.23 %
+Invariant sites: 15.35 %
+
+Partition 14: L10384.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1873 / 1031
+Gaps: 18.82 %
+Invariant sites: 13.45 %
+
+Partition 15: L10388.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1733 / 1106
+Gaps: 20.72 %
+Invariant sites: 14.02 %
+
+Partition 16: L10391.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1886 / 960
+Gaps: 15.69 %
+Invariant sites: 16.28 %
+
+Partition 17: L10392.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1826 / 834
+Gaps: 16.57 %
+Invariant sites: 18.40 %
+
+Partition 18: L10393.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1818 / 903
+Gaps: 17.73 %
+Invariant sites: 21.89 %
+
+Partition 19: L10396.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1741 / 1010
+Gaps: 17.42 %
+Invariant sites: 15.45 %
+
+Partition 20: L10402.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1918 / 1116
+Gaps: 25.34 %
+Invariant sites: 15.59 %
+
+Partition 21: L10413.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 869
+Gaps: 17.70 %
+Invariant sites: 18.78 %
+
+Partition 22: L10418.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 734
+Gaps: 16.49 %
+Invariant sites: 21.96 %
+
+Partition 23: L10467.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1742 / 1189
+Gaps: 21.71 %
+Invariant sites: 12.86 %
+
+Partition 24: L10469.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 1124
+Gaps: 19.08 %
+Invariant sites: 15.70 %
+
+Partition 25: L10531.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 979
+Gaps: 18.89 %
+Invariant sites: 23.68 %
+
+Partition 26: L10593.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1813 / 1449
+Gaps: 21.14 %
+Invariant sites: 8.22 %
+
+Partition 27: L10603.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2050 / 1117
+Gaps: 15.99 %
+Invariant sites: 11.07 %
+
+Partition 28: L10624.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1719 / 1134
+Gaps: 17.45 %
+Invariant sites: 15.36 %
+
+Partition 29: L10625.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1813 / 1294
+Gaps: 18.97 %
+Invariant sites: 9.87 %
+
+Partition 30: L10626.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1782 / 1350
+Gaps: 22.31 %
+Invariant sites: 14.81 %
+
+Partition 31: L1064.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1580 / 1207
+Gaps: 16.75 %
+Invariant sites: 7.66 %
+
+Partition 32: L10684.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1881 / 1235
+Gaps: 23.08 %
+Invariant sites: 18.34 %
+
+Partition 33: L10714.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1809 / 1297
+Gaps: 20.11 %
+Invariant sites: 12.88 %
+
+Partition 34: L10865.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1943 / 1137
+Gaps: 19.25 %
+Invariant sites: 14.98 %
+
+Partition 35: L10877.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1795 / 1071
+Gaps: 17.22 %
+Invariant sites: 16.21 %
+
+Partition 36: L1089.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1666 / 994
+Gaps: 24.50 %
+Invariant sites: 10.62 %
+
+Partition 37: L10968.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1838 / 663
+Gaps: 9.99 %
+Invariant sites: 14.04 %
+
+Partition 38: L10969.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1703 / 752
+Gaps: 16.86 %
+Invariant sites: 17.26 %
+
+Partition 39: L11191.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1622 / 842
+Gaps: 16.33 %
+Invariant sites: 11.65 %
+
+Partition 40: L11192.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 987
+Gaps: 14.97 %
+Invariant sites: 12.36 %
+
+Partition 41: L1119.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1736 / 1117
+Gaps: 18.02 %
+Invariant sites: 13.25 %
+
+Partition 42: L11208.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 955
+Gaps: 26.67 %
+Invariant sites: 14.79 %
+
+Partition 43: L11231.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2628 / 1550
+Gaps: 36.43 %
+Invariant sites: 12.60 %
+
+Partition 44: L11233.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1796 / 848
+Gaps: 23.25 %
+Invariant sites: 14.92 %
+
+Partition 45: L11368.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1833 / 1334
+Gaps: 16.75 %
+Invariant sites: 12.06 %
+
+Partition 46: L11405.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2073 / 1234
+Gaps: 17.27 %
+Invariant sites: 16.88 %
+
+Partition 47: L11476.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2046 / 1012
+Gaps: 17.32 %
+Invariant sites: 11.00 %
+
+Partition 48: L11489.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1979 / 1215
+Gaps: 18.30 %
+Invariant sites: 15.77 %
+
+Partition 49: L11680.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1665 / 841
+Gaps: 16.02 %
+Invariant sites: 20.42 %
+
+Partition 50: L11708.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2636 / 1631
+Gaps: 15.08 %
+Invariant sites: 12.52 %
+
+Partition 51: L11714.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1679 / 1105
+Gaps: 18.59 %
+Invariant sites: 19.30 %
+
+Partition 52: L11715.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1768 / 1432
+Gaps: 26.54 %
+Invariant sites: 11.93 %
+
+Partition 53: L11726.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1752 / 1485
+Gaps: 26.47 %
+Invariant sites: 9.13 %
+
+Partition 54: L1172.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1717 / 963
+Gaps: 18.49 %
+Invariant sites: 17.18 %
+
+Partition 55: L11825.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1887 / 1106
+Gaps: 19.02 %
+Invariant sites: 19.29 %
+
+Partition 56: L1186.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1639 / 1135
+Gaps: 19.28 %
+Invariant sites: 13.00 %
+
+Partition 57: L11929.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1899 / 1178
+Gaps: 20.79 %
+Invariant sites: 11.53 %
+
+Partition 58: L12159.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1847 / 1257
+Gaps: 18.50 %
+Invariant sites: 14.13 %
+
+Partition 59: L12160.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 1331
+Gaps: 17.55 %
+Invariant sites: 7.36 %
+
+Partition 60: L12162.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2343 / 1290
+Gaps: 13.62 %
+Invariant sites: 9.48 %
+
+Partition 61: L12277.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1748 / 1245
+Gaps: 22.45 %
+Invariant sites: 17.16 %
+
+Partition 62: L12287.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1648 / 1210
+Gaps: 25.54 %
+Invariant sites: 10.56 %
+
+Partition 63: L12305.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 1177
+Gaps: 19.83 %
+Invariant sites: 15.46 %
+
+Partition 64: L12355.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1779 / 1091
+Gaps: 21.13 %
+Invariant sites: 20.97 %
+
+Partition 65: L12371.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1718 / 1156
+Gaps: 24.94 %
+Invariant sites: 18.39 %
+
+Partition 66: L12387.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1808 / 1595
+Gaps: 34.54 %
+Invariant sites: 10.84 %
+
+Partition 67: L12444.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 984
+Gaps: 22.42 %
+Invariant sites: 17.03 %
+
+Partition 68: L12488.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2609 / 1324
+Gaps: 14.21 %
+Invariant sites: 10.66 %
+
+Partition 69: L12538.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1756 / 1275
+Gaps: 21.08 %
+Invariant sites: 11.62 %
+
+Partition 70: L12555.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1679 / 1290
+Gaps: 22.26 %
+Invariant sites: 9.95 %
+
+Partition 71: L12570.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1570 / 1219
+Gaps: 29.51 %
+Invariant sites: 13.82 %
+
+Partition 72: L12645.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1725 / 981
+Gaps: 29.99 %
+Invariant sites: 18.20 %
+
+Partition 73: L12646.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1819 / 1180
+Gaps: 23.83 %
+Invariant sites: 20.67 %
+
+Partition 74: L12661.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1718 / 1262
+Gaps: 17.53 %
+Invariant sites: 12.11 %
+
+Partition 75: L12663.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1952 / 988
+Gaps: 14.57 %
+Invariant sites: 15.62 %
+
+Partition 76: L12667.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1683 / 1213
+Gaps: 20.82 %
+Invariant sites: 15.81 %
+
+Partition 77: L12676.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1747 / 1075
+Gaps: 20.36 %
+Invariant sites: 22.67 %
+
+Partition 78: L12703.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1505 / 698
+Gaps: 17.48 %
+Invariant sites: 18.27 %
+
+Partition 79: L12735.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 994
+Gaps: 16.54 %
+Invariant sites: 16.89 %
+
+Partition 80: L12748.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1772 / 1322
+Gaps: 21.45 %
+Invariant sites: 8.92 %
+
+Partition 81: L12750.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1597 / 1261
+Gaps: 21.51 %
+Invariant sites: 10.27 %
+
+Partition 82: L12759.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2166 / 1088
+Gaps: 17.06 %
+Invariant sites: 11.91 %
+
+Partition 83: L12801.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1802 / 1303
+Gaps: 29.66 %
+Invariant sites: 15.65 %
+
+Partition 84: L12836.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 1029
+Gaps: 17.75 %
+Invariant sites: 17.72 %
+
+Partition 85: L12837.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1642 / 934
+Gaps: 15.96 %
+Invariant sites: 14.13 %
+
+Partition 86: L12838.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 1215
+Gaps: 19.82 %
+Invariant sites: 12.83 %
+
+Partition 87: L12843.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1672 / 1293
+Gaps: 17.32 %
+Invariant sites: 11.96 %
+
+Partition 88: L12857.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1770 / 1281
+Gaps: 19.50 %
+Invariant sites: 9.32 %
+
+Partition 89: L12858.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1926 / 1266
+Gaps: 18.58 %
+Invariant sites: 13.24 %
+
+Partition 90: L12884.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1144
+Gaps: 24.99 %
+Invariant sites: 11.05 %
+
+Partition 91: L12910.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 1203
+Gaps: 20.01 %
+Invariant sites: 12.98 %
+
+Partition 92: L12913.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1125
+Gaps: 20.38 %
+Invariant sites: 19.15 %
+
+Partition 93: L1299.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1680 / 1141
+Gaps: 20.48 %
+Invariant sites: 8.10 %
+
+Partition 94: L13024.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1627 / 1055
+Gaps: 18.42 %
+Invariant sites: 9.40 %
+
+Partition 95: L13126.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1786 / 1117
+Gaps: 16.32 %
+Invariant sites: 15.57 %
+
+Partition 96: L13206.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1755 / 1240
+Gaps: 22.78 %
+Invariant sites: 11.40 %
+
+Partition 97: L13233.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1680 / 1124
+Gaps: 18.34 %
+Invariant sites: 15.00 %
+
+Partition 98: L13243.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 1150
+Gaps: 17.42 %
+Invariant sites: 7.70 %
+
+Partition 99: L13260.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1857 / 1543
+Gaps: 29.76 %
+Invariant sites: 8.67 %
+
+Partition 100: L13357.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1708 / 940
+Gaps: 17.60 %
+Invariant sites: 16.92 %
+
+Partition 101: L13362.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1812 / 1229
+Gaps: 21.21 %
+Invariant sites: 10.15 %
+
+Partition 102: L1341.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1720 / 1066
+Gaps: 19.18 %
+Invariant sites: 14.53 %
+
+Partition 103: L13499.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1011
+Gaps: 21.79 %
+Invariant sites: 25.39 %
+
+Partition 104: L13501.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1563 / 1027
+Gaps: 20.05 %
+Invariant sites: 17.40 %
+
+Partition 105: L13541.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1939 / 1348
+Gaps: 20.69 %
+Invariant sites: 14.13 %
+
+Partition 106: L13553.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 1121
+Gaps: 20.48 %
+Invariant sites: 16.21 %
+
+Partition 107: L13566.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1775 / 1330
+Gaps: 22.30 %
+Invariant sites: 6.08 %
+
+Partition 108: L13582.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1689 / 1022
+Gaps: 18.74 %
+Invariant sites: 16.93 %
+
+Partition 109: L13623.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1743 / 1173
+Gaps: 22.20 %
+Invariant sites: 15.32 %
+
+Partition 110: L13662.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1936 / 784
+Gaps: 12.48 %
+Invariant sites: 16.01 %
+
+Partition 111: L1366.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1889 / 1503
+Gaps: 23.02 %
+Invariant sites: 8.84 %
+
+Partition 112: L13678.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2209 / 1474
+Gaps: 32.62 %
+Invariant sites: 15.53 %
+
+Partition 113: L13708.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1940 / 1526
+Gaps: 23.31 %
+Invariant sites: 7.73 %
+
+Partition 114: L13709.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1741 / 1053
+Gaps: 16.78 %
+Invariant sites: 19.13 %
+
+Partition 115: L13718.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1692 / 1169
+Gaps: 21.01 %
+Invariant sites: 18.85 %
+
+Partition 116: L13725.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1797 / 1127
+Gaps: 20.64 %
+Invariant sites: 14.97 %
+
+Partition 117: L13736.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1931 / 1020
+Gaps: 17.60 %
+Invariant sites: 18.13 %
+
+Partition 118: L13782.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1758 / 1422
+Gaps: 27.29 %
+Invariant sites: 10.47 %
+
+Partition 119: L13813.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 1091
+Gaps: 25.96 %
+Invariant sites: 16.62 %
+
+Partition 120: L13870.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1968 / 1492
+Gaps: 28.40 %
+Invariant sites: 17.73 %
+
+Partition 121: L13920.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 1045
+Gaps: 19.60 %
+Invariant sites: 20.68 %
+
+Partition 122: L13947.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1726 / 1275
+Gaps: 18.27 %
+Invariant sites: 10.78 %
+
+Partition 123: L13949.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1653 / 890
+Gaps: 23.02 %
+Invariant sites: 17.60 %
+
+Partition 124: L13964.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1730 / 1151
+Gaps: 18.25 %
+Invariant sites: 14.16 %
+
+Partition 125: L13965.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1867 / 1014
+Gaps: 16.92 %
+Invariant sites: 19.82 %
+
+Partition 126: L14000.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1870 / 1510
+Gaps: 24.24 %
+Invariant sites: 8.98 %
+
+Partition 127: L14013.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1686 / 1194
+Gaps: 27.24 %
+Invariant sites: 23.07 %
+
+Partition 128: L14040.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1644 / 984
+Gaps: 20.65 %
+Invariant sites: 18.92 %
+
+Partition 129: L14124.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1640 / 1078
+Gaps: 22.61 %
+Invariant sites: 16.59 %
+
+Partition 130: L14126.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1845 / 1121
+Gaps: 24.19 %
+Invariant sites: 21.79 %
+
+Partition 131: L14183.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1730 / 1414
+Gaps: 29.56 %
+Invariant sites: 10.40 %
+
+Partition 132: L14206.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1819 / 941
+Gaps: 19.82 %
+Invariant sites: 20.40 %
+
+Partition 133: L14214.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1695 / 1396
+Gaps: 24.98 %
+Invariant sites: 12.92 %
+
+Partition 134: L14220.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1889 / 924
+Gaps: 21.69 %
+Invariant sites: 20.01 %
+
+Partition 135: L14221.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1965 / 939
+Gaps: 17.17 %
+Invariant sites: 17.40 %
+
+Partition 136: L14222.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1869 / 896
+Gaps: 17.53 %
+Invariant sites: 16.75 %
+
+Partition 137: L14306.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1582 / 1207
+Gaps: 22.01 %
+Invariant sites: 13.34 %
+
+Partition 138: L14307.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1814 / 1206
+Gaps: 23.65 %
+Invariant sites: 13.84 %
+
+Partition 139: L14415.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 1098
+Gaps: 21.35 %
+Invariant sites: 14.67 %
+
+Partition 140: L14428.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1681 / 1262
+Gaps: 24.83 %
+Invariant sites: 11.84 %
+
+Partition 141: L1443.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2009 / 1516
+Gaps: 34.11 %
+Invariant sites: 15.93 %
+
+Partition 142: L1444.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2085 / 1587
+Gaps: 30.84 %
+Invariant sites: 15.44 %
+
+Partition 143: L14460.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1600 / 1111
+Gaps: 22.22 %
+Invariant sites: 17.12 %
+
+Partition 144: L14469.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1775 / 1371
+Gaps: 18.24 %
+Invariant sites: 10.14 %
+
+Partition 145: L14498.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2100 / 1169
+Gaps: 15.46 %
+Invariant sites: 15.95 %
+
+Partition 146: L14517.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1742 / 1328
+Gaps: 19.45 %
+Invariant sites: 10.22 %
+
+Partition 147: L14572.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1676 / 1191
+Gaps: 28.30 %
+Invariant sites: 22.20 %
+
+Partition 148: L1461.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1691 / 1059
+Gaps: 18.06 %
+Invariant sites: 18.27 %
+
+Partition 149: L1467.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1746 / 926
+Gaps: 15.22 %
+Invariant sites: 22.16 %
+
+Partition 150: L14695.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1775 / 1166
+Gaps: 20.65 %
+Invariant sites: 13.46 %
+
+Partition 151: L14706.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 3347 / 1260
+Gaps: 12.53 %
+Invariant sites: 11.50 %
+
+Partition 152: L14873.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1698 / 1163
+Gaps: 17.62 %
+Invariant sites: 11.31 %
+
+Partition 153: L14878.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1354
+Gaps: 48.44 %
+Invariant sites: 13.33 %
+
+Partition 154: L14973.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1816 / 1162
+Gaps: 26.03 %
+Invariant sites: 20.93 %
+
+Partition 155: L15025.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 921
+Gaps: 29.31 %
+Invariant sites: 17.80 %
+
+Partition 156: L15075.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1790 / 1017
+Gaps: 18.04 %
+Invariant sites: 18.66 %
+
+Partition 157: L15077.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 836
+Gaps: 14.26 %
+Invariant sites: 15.05 %
+
+Partition 158: L15078.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1887 / 1316
+Gaps: 19.82 %
+Invariant sites: 14.79 %
+
+Partition 159: L15098.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1681 / 1266
+Gaps: 25.54 %
+Invariant sites: 16.66 %
+
+Partition 160: L15137.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 1235
+Gaps: 19.77 %
+Invariant sites: 15.89 %
+
+Partition 161: L15143.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1565 / 1001
+Gaps: 15.95 %
+Invariant sites: 18.98 %
+
+Partition 162: L1514.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1687 / 1134
+Gaps: 17.96 %
+Invariant sites: 17.19 %
+
+Partition 163: L15160.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1709 / 1028
+Gaps: 17.32 %
+Invariant sites: 11.82 %
+
+Partition 164: L15161.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1658 / 1165
+Gaps: 18.74 %
+Invariant sites: 17.73 %
+
+Partition 165: L15165.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1733 / 1214
+Gaps: 20.04 %
+Invariant sites: 11.14 %
+
+Partition 166: L15213.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2054 / 1527
+Gaps: 39.60 %
+Invariant sites: 14.17 %
+
+Partition 167: L15247.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1591 / 1297
+Gaps: 22.34 %
+Invariant sites: 11.44 %
+
+Partition 168: L15286.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1670 / 1161
+Gaps: 18.70 %
+Invariant sites: 16.29 %
+
+Partition 169: L15376.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1752 / 1071
+Gaps: 19.55 %
+Invariant sites: 20.26 %
+
+Partition 170: L15421.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1791 / 1275
+Gaps: 20.42 %
+Invariant sites: 13.34 %
+
+Partition 171: L15425.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1692 / 1129
+Gaps: 22.60 %
+Invariant sites: 18.20 %
+
+Partition 172: L1543.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 1198
+Gaps: 24.96 %
+Invariant sites: 13.38 %
+
+Partition 173: L15499.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1742 / 1262
+Gaps: 19.78 %
+Invariant sites: 13.26 %
+
+Partition 174: L15501.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1834 / 1092
+Gaps: 19.99 %
+Invariant sites: 11.89 %
+
+Partition 175: L15502.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 1160
+Gaps: 20.27 %
+Invariant sites: 18.07 %
+
+Partition 176: L15503.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1618 / 1296
+Gaps: 28.29 %
+Invariant sites: 17.00 %
+
+Partition 177: L15563.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1696 / 1174
+Gaps: 22.20 %
+Invariant sites: 18.57 %
+
+Partition 178: L15601.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 941
+Gaps: 19.71 %
+Invariant sites: 16.63 %
+
+Partition 179: L15625.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1707 / 1102
+Gaps: 20.85 %
+Invariant sites: 17.05 %
+
+Partition 180: L15646.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1803 / 1353
+Gaps: 20.38 %
+Invariant sites: 13.59 %
+
+Partition 181: L15664.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1777 / 1180
+Gaps: 22.18 %
+Invariant sites: 18.12 %
+
+Partition 182: L15719.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1736 / 1188
+Gaps: 18.15 %
+Invariant sites: 13.82 %
+
+Partition 183: L15720.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1683 / 1137
+Gaps: 18.30 %
+Invariant sites: 11.53 %
+
+Partition 184: L15721.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1731 / 1077
+Gaps: 16.98 %
+Invariant sites: 16.81 %
+
+Partition 185: L15729.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1985 / 1311
+Gaps: 18.43 %
+Invariant sites: 14.71 %
+
+Partition 186: L15736.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1683 / 941
+Gaps: 18.74 %
+Invariant sites: 18.18 %
+
+Partition 187: L15783.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1667 / 1348
+Gaps: 24.09 %
+Invariant sites: 8.16 %
+
+Partition 188: L15785.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 1018
+Gaps: 16.28 %
+Invariant sites: 11.55 %
+
+Partition 189: L15787.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1573 / 1310
+Gaps: 38.75 %
+Invariant sites: 11.38 %
+
+Partition 190: L15814.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1926 / 981
+Gaps: 19.07 %
+Invariant sites: 20.04 %
+
+Partition 191: L15859.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1703 / 1411
+Gaps: 22.47 %
+Invariant sites: 13.62 %
+
+Partition 192: L15863.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 1282
+Gaps: 26.00 %
+Invariant sites: 9.75 %
+
+Partition 193: L15888.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1632 / 947
+Gaps: 18.70 %
+Invariant sites: 19.73 %
+
+Partition 194: L15924.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1699 / 1040
+Gaps: 24.25 %
+Invariant sites: 11.36 %
+
+Partition 195: L16015.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1637 / 1268
+Gaps: 24.73 %
+Invariant sites: 8.12 %
+
+Partition 196: L16016.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1701 / 1044
+Gaps: 18.36 %
+Invariant sites: 14.40 %
+
+Partition 197: L16018.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1952 / 1199
+Gaps: 25.53 %
+Invariant sites: 15.01 %
+
+Partition 198: L16091.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2057 / 1145
+Gaps: 19.76 %
+Invariant sites: 14.15 %
+
+Partition 199: L1615.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1571 / 855
+Gaps: 18.58 %
+Invariant sites: 15.34 %
+
+Partition 200: L16215.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1696 / 862
+Gaps: 17.22 %
+Invariant sites: 14.39 %
+
+Partition 201: L16218.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1742 / 931
+Gaps: 26.95 %
+Invariant sites: 17.85 %
+
+Partition 202: L16219.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1880 / 846
+Gaps: 16.93 %
+Invariant sites: 15.48 %
+
+Partition 203: L16222.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2033 / 811
+Gaps: 14.08 %
+Invariant sites: 16.28 %
+
+Partition 204: L16223.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 1109
+Gaps: 22.27 %
+Invariant sites: 23.20 %
+
+Partition 205: L16227.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1878 / 790
+Gaps: 16.41 %
+Invariant sites: 18.96 %
+
+Partition 206: L16230.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1999 / 1071
+Gaps: 31.36 %
+Invariant sites: 21.36 %
+
+Partition 207: L16231.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2028 / 1164
+Gaps: 27.22 %
+Invariant sites: 19.28 %
+
+Partition 208: L16232.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1882 / 833
+Gaps: 16.18 %
+Invariant sites: 16.58 %
+
+Partition 209: L16233.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1811 / 882
+Gaps: 17.59 %
+Invariant sites: 15.30 %
+
+Partition 210: L16270.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1772 / 1082
+Gaps: 21.08 %
+Invariant sites: 21.78 %
+
+Partition 211: L16417.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1627 / 1080
+Gaps: 18.09 %
+Invariant sites: 16.29 %
+
+Partition 212: L16418.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1681 / 1197
+Gaps: 22.24 %
+Invariant sites: 18.86 %
+
+Partition 213: L16497.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1610 / 953
+Gaps: 15.80 %
+Invariant sites: 17.08 %
+
+Partition 214: L16501.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1572 / 849
+Gaps: 14.82 %
+Invariant sites: 15.78 %
+
+Partition 215: L16517.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1711 / 1344
+Gaps: 17.50 %
+Invariant sites: 9.53 %
+
+Partition 216: L1652.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1740 / 831
+Gaps: 13.64 %
+Invariant sites: 13.68 %
+
+Partition 217: L16556.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1648 / 857
+Gaps: 15.40 %
+Invariant sites: 19.30 %
+
+Partition 218: L1655.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1818 / 1174
+Gaps: 18.40 %
+Invariant sites: 14.52 %
+
+Partition 219: L16573.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1745 / 1086
+Gaps: 21.69 %
+Invariant sites: 18.80 %
+
+Partition 220: L16601.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1637 / 992
+Gaps: 20.15 %
+Invariant sites: 16.25 %
+
+Partition 221: L16605.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1716 / 1229
+Gaps: 20.26 %
+Invariant sites: 13.34 %
+
+Partition 222: L16609.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2386 / 1375
+Gaps: 18.99 %
+Invariant sites: 8.26 %
+
+Partition 223: L16654.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1919 / 1512
+Gaps: 29.36 %
+Invariant sites: 9.95 %
+
+Partition 224: L1672.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1787 / 1147
+Gaps: 22.24 %
+Invariant sites: 16.73 %
+
+Partition 225: L16734.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1731 / 838
+Gaps: 16.05 %
+Invariant sites: 18.72 %
+
+Partition 226: L16752.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 918
+Gaps: 17.08 %
+Invariant sites: 20.39 %
+
+Partition 227: L16753.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1720 / 1054
+Gaps: 19.76 %
+Invariant sites: 15.99 %
+
+Partition 228: L16779.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1802 / 989
+Gaps: 18.48 %
+Invariant sites: 22.42 %
+
+Partition 229: L1677.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1696 / 1254
+Gaps: 20.06 %
+Invariant sites: 13.44 %
+
+Partition 230: L16833.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2923 / 1360
+Gaps: 14.29 %
+Invariant sites: 11.91 %
+
+Partition 231: L16838.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1249
+Gaps: 33.54 %
+Invariant sites: 18.60 %
+
+Partition 232: L16843.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1415 / 934
+Gaps: 25.40 %
+Invariant sites: 18.30 %
+
+Partition 233: L16952.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1769 / 1117
+Gaps: 17.97 %
+Invariant sites: 14.47 %
+
+Partition 234: L16994.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1748 / 1120
+Gaps: 18.57 %
+Invariant sites: 19.97 %
+
+Partition 235: L17000.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1686 / 1079
+Gaps: 20.19 %
+Invariant sites: 12.34 %
+
+Partition 236: L1706.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1914 / 1039
+Gaps: 19.20 %
+Invariant sites: 17.61 %
+
+Partition 237: L17079.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1686 / 735
+Gaps: 20.79 %
+Invariant sites: 14.00 %
+
+Partition 238: L17132.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1621 / 1317
+Gaps: 27.82 %
+Invariant sites: 8.88 %
+
+Partition 239: L17133.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1616 / 1050
+Gaps: 18.52 %
+Invariant sites: 17.64 %
+
+Partition 240: L17134.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1762 / 1118
+Gaps: 18.55 %
+Invariant sites: 17.65 %
+
+Partition 241: L17135.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1669 / 1018
+Gaps: 18.97 %
+Invariant sites: 22.47 %
+
+Partition 242: L17136.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1709 / 1102
+Gaps: 22.65 %
+Invariant sites: 17.26 %
+
+Partition 243: L17137.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 991
+Gaps: 19.98 %
+Invariant sites: 18.22 %
+
+Partition 244: L17138.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 1061
+Gaps: 18.10 %
+Invariant sites: 21.84 %
+
+Partition 245: L1713.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1726 / 1390
+Gaps: 24.33 %
+Invariant sites: 15.30 %
+
+Partition 246: L17236.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 1143
+Gaps: 17.03 %
+Invariant sites: 11.74 %
+
+Partition 247: L17261.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1710 / 1289
+Gaps: 19.92 %
+Invariant sites: 17.54 %
+
+Partition 248: L17374.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1730 / 1172
+Gaps: 17.20 %
+Invariant sites: 10.98 %
+
+Partition 249: L1738.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1911 / 1155
+Gaps: 32.57 %
+Invariant sites: 18.68 %
+
+Partition 250: L1739.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2228 / 1237
+Gaps: 31.44 %
+Invariant sites: 15.98 %
+
+Partition 251: L17409.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2926 / 1852
+Gaps: 17.03 %
+Invariant sites: 7.72 %
+
+Partition 252: L1741.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1838 / 994
+Gaps: 30.90 %
+Invariant sites: 22.96 %
+
+Partition 253: L17460.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1878 / 1378
+Gaps: 17.38 %
+Invariant sites: 8.20 %
+
+Partition 254: L17462.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1645 / 1146
+Gaps: 20.15 %
+Invariant sites: 17.81 %
+
+Partition 255: L17654.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1679 / 1426
+Gaps: 20.32 %
+Invariant sites: 11.26 %
+
+Partition 256: L17655.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1719 / 1151
+Gaps: 19.77 %
+Invariant sites: 16.06 %
+
+Partition 257: L17767.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2190 / 1569
+Gaps: 25.35 %
+Invariant sites: 10.14 %
+
+Partition 258: L17772.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2894 / 1564
+Gaps: 18.41 %
+Invariant sites: 7.57 %
+
+Partition 259: L17825.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1710 / 1276
+Gaps: 19.91 %
+Invariant sites: 5.91 %
+
+Partition 260: L17911.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1948 / 866
+Gaps: 12.86 %
+Invariant sites: 16.63 %
+
+Partition 261: L17913.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1802 / 899
+Gaps: 19.17 %
+Invariant sites: 20.64 %
+
+Partition 262: L17954.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1699 / 1280
+Gaps: 21.92 %
+Invariant sites: 15.54 %
+
+Partition 263: L17992.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1805 / 1002
+Gaps: 20.56 %
+Invariant sites: 13.57 %
+
+Partition 264: L17994.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1907 / 998
+Gaps: 14.07 %
+Invariant sites: 18.51 %
+
+Partition 265: L18018.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1831 / 1082
+Gaps: 16.51 %
+Invariant sites: 19.99 %
+
+Partition 266: L1801.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1801 / 1035
+Gaps: 18.06 %
+Invariant sites: 11.77 %
+
+Partition 267: L1803.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1037
+Gaps: 18.30 %
+Invariant sites: 17.53 %
+
+Partition 268: L18045.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1636 / 1165
+Gaps: 22.49 %
+Invariant sites: 16.38 %
+
+Partition 269: L18048.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1702 / 1222
+Gaps: 23.17 %
+Invariant sites: 11.22 %
+
+Partition 270: L18063.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1823 / 1184
+Gaps: 16.03 %
+Invariant sites: 13.17 %
+
+Partition 271: L18151.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1922 / 1185
+Gaps: 19.89 %
+Invariant sites: 14.36 %
+
+Partition 272: L18289.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1861 / 1031
+Gaps: 23.23 %
+Invariant sites: 15.37 %
+
+Partition 273: L1830.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1714 / 1153
+Gaps: 25.40 %
+Invariant sites: 17.27 %
+
+Partition 274: L18313.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1729 / 995
+Gaps: 22.87 %
+Invariant sites: 15.79 %
+
+Partition 275: L1831.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1745 / 1094
+Gaps: 16.99 %
+Invariant sites: 15.19 %
+
+Partition 276: L18344.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1935 / 1292
+Gaps: 18.92 %
+Invariant sites: 17.57 %
+
+Partition 277: L18345.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2011 / 1399
+Gaps: 20.28 %
+Invariant sites: 12.98 %
+
+Partition 278: L18353.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 1118
+Gaps: 24.89 %
+Invariant sites: 12.91 %
+
+Partition 279: L18359.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1758 / 1155
+Gaps: 18.08 %
+Invariant sites: 10.98 %
+
+Partition 280: L1841.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1809 / 832
+Gaps: 22.47 %
+Invariant sites: 16.97 %
+
+Partition 281: L18490.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1698 / 1402
+Gaps: 22.51 %
+Invariant sites: 8.19 %
+
+Partition 282: L18540.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1673 / 1330
+Gaps: 25.27 %
+Invariant sites: 6.93 %
+
+Partition 283: L18694.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1689 / 856
+Gaps: 25.46 %
+Invariant sites: 16.81 %
+
+Partition 284: L18698.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1322
+Gaps: 21.52 %
+Invariant sites: 14.68 %
+
+Partition 285: L18775.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1959 / 1403
+Gaps: 18.95 %
+Invariant sites: 6.33 %
+
+Partition 286: L18798.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1896 / 1451
+Gaps: 28.81 %
+Invariant sites: 11.76 %
+
+Partition 287: L1889.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1628 / 1151
+Gaps: 20.21 %
+Invariant sites: 13.88 %
+
+Partition 288: L18974.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1741 / 1064
+Gaps: 26.12 %
+Invariant sites: 11.83 %
+
+Partition 289: L19033.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 1072
+Gaps: 18.15 %
+Invariant sites: 18.12 %
+
+Partition 290: L19052.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 4043 / 1692
+Gaps: 15.40 %
+Invariant sites: 7.67 %
+
+Partition 291: L19086.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1633 / 1342
+Gaps: 22.62 %
+Invariant sites: 8.27 %
+
+Partition 292: L19197.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1928 / 1158
+Gaps: 16.88 %
+Invariant sites: 15.87 %
+
+Partition 293: L19246.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1691 / 1154
+Gaps: 19.30 %
+Invariant sites: 16.62 %
+
+Partition 294: L19254.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1988 / 1275
+Gaps: 21.25 %
+Invariant sites: 16.55 %
+
+Partition 295: L19269.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1701 / 1190
+Gaps: 18.73 %
+Invariant sites: 15.34 %
+
+Partition 296: L19275.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 1224
+Gaps: 21.54 %
+Invariant sites: 17.83 %
+
+Partition 297: L19316.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1972 / 912
+Gaps: 13.60 %
+Invariant sites: 16.53 %
+
+Partition 298: L19344.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1422
+Gaps: 26.87 %
+Invariant sites: 11.40 %
+
+Partition 299: L19345.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2016 / 910
+Gaps: 13.23 %
+Invariant sites: 11.06 %
+
+Partition 300: L19351.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1673 / 1005
+Gaps: 17.75 %
+Invariant sites: 20.56 %
+
+Partition 301: L19386.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1726 / 1138
+Gaps: 18.97 %
+Invariant sites: 19.93 %
+
+Partition 302: L19414.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1714 / 1247
+Gaps: 21.53 %
+Invariant sites: 6.53 %
+
+Partition 303: L19418.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 1036
+Gaps: 16.58 %
+Invariant sites: 14.41 %
+
+Partition 304: L19439.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2067 / 1476
+Gaps: 21.70 %
+Invariant sites: 11.47 %
+
+Partition 305: L19462.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2238 / 1279
+Gaps: 18.77 %
+Invariant sites: 15.19 %
+
+Partition 306: L19543.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 1329
+Gaps: 19.41 %
+Invariant sites: 11.07 %
+
+Partition 307: L19551.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 848
+Gaps: 16.77 %
+Invariant sites: 20.39 %
+
+Partition 308: L19643.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1680 / 1217
+Gaps: 21.44 %
+Invariant sites: 15.30 %
+
+Partition 309: L19647.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1973 / 1097
+Gaps: 13.54 %
+Invariant sites: 11.56 %
+
+Partition 310: L19652.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 974
+Gaps: 19.63 %
+Invariant sites: 19.69 %
+
+Partition 311: L19653.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 868
+Gaps: 19.89 %
+Invariant sites: 17.42 %
+
+Partition 312: L19670.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1841 / 1327
+Gaps: 17.19 %
+Invariant sites: 10.43 %
+
+Partition 313: L1970.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1732 / 1129
+Gaps: 21.09 %
+Invariant sites: 17.61 %
+
+Partition 314: L19721.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 985
+Gaps: 18.24 %
+Invariant sites: 14.75 %
+
+Partition 315: L19729.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1772 / 1081
+Gaps: 25.34 %
+Invariant sites: 20.77 %
+
+Partition 316: L1972.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1727 / 1176
+Gaps: 19.12 %
+Invariant sites: 15.11 %
+
+Partition 317: L1975.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2045 / 1287
+Gaps: 18.18 %
+Invariant sites: 10.46 %
+
+Partition 318: L19788.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1675 / 1009
+Gaps: 16.24 %
+Invariant sites: 11.94 %
+
+Partition 319: L19819.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1696 / 1216
+Gaps: 21.31 %
+Invariant sites: 14.39 %
+
+Partition 320: L1989.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1670 / 1164
+Gaps: 21.40 %
+Invariant sites: 18.74 %
+
+Partition 321: L19919.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1960 / 1244
+Gaps: 19.11 %
+Invariant sites: 8.62 %
+
+Partition 322: L20084.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1691 / 1331
+Gaps: 20.70 %
+Invariant sites: 9.93 %
+
+Partition 323: L20085.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1757 / 1164
+Gaps: 20.98 %
+Invariant sites: 16.68 %
+
+Partition 324: L20148.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 1238
+Gaps: 17.87 %
+Invariant sites: 11.61 %
+
+Partition 325: L20161.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2087 / 1174
+Gaps: 20.22 %
+Invariant sites: 15.09 %
+
+Partition 326: L20162.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1669 / 1201
+Gaps: 19.89 %
+Invariant sites: 9.89 %
+
+Partition 327: L20220.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1852 / 835
+Gaps: 14.11 %
+Invariant sites: 18.09 %
+
+Partition 328: L20222.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1971 / 1018
+Gaps: 12.56 %
+Invariant sites: 12.13 %
+
+Partition 329: L20245.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1781 / 1024
+Gaps: 20.58 %
+Invariant sites: 20.33 %
+
+Partition 330: L20266.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1729 / 1165
+Gaps: 18.66 %
+Invariant sites: 12.49 %
+
+Partition 331: L20267.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 1200
+Gaps: 21.99 %
+Invariant sites: 14.02 %
+
+Partition 332: L20298.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1650 / 1093
+Gaps: 22.57 %
+Invariant sites: 11.03 %
+
+Partition 333: L20347.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2149 / 1333
+Gaps: 17.31 %
+Invariant sites: 16.10 %
+
+Partition 334: L20348.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 1509
+Gaps: 29.33 %
+Invariant sites: 5.55 %
+
+Partition 335: L20352.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1712 / 1044
+Gaps: 21.71 %
+Invariant sites: 19.57 %
+
+Partition 336: L20359.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1731 / 1087
+Gaps: 17.82 %
+Invariant sites: 13.00 %
+
+Partition 337: L20380.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1857 / 1191
+Gaps: 18.58 %
+Invariant sites: 11.04 %
+
+Partition 338: L20398.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1817 / 1176
+Gaps: 21.68 %
+Invariant sites: 11.39 %
+
+Partition 339: L20441.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1982 / 1071
+Gaps: 15.56 %
+Invariant sites: 13.77 %
+
+Partition 340: L20443.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2010 / 915
+Gaps: 13.27 %
+Invariant sites: 14.28 %
+
+Partition 341: L20459.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1801 / 1159
+Gaps: 14.25 %
+Invariant sites: 6.11 %
+
+Partition 342: L20510.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 1166
+Gaps: 21.22 %
+Invariant sites: 17.28 %
+
+Partition 343: L20564.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1880 / 1044
+Gaps: 17.90 %
+Invariant sites: 12.66 %
+
+Partition 344: L20604.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1930 / 864
+Gaps: 15.17 %
+Invariant sites: 15.44 %
+
+Partition 345: L20605.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2239 / 1117
+Gaps: 19.10 %
+Invariant sites: 16.75 %
+
+Partition 346: L20606.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2474 / 1059
+Gaps: 15.85 %
+Invariant sites: 18.51 %
+
+Partition 347: L20608.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1777 / 1218
+Gaps: 21.46 %
+Invariant sites: 22.62 %
+
+Partition 348: L20609.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1894 / 1201
+Gaps: 18.61 %
+Invariant sites: 19.32 %
+
+Partition 349: L20610.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1840 / 1098
+Gaps: 18.01 %
+Invariant sites: 22.12 %
+
+Partition 350: L20618.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1886 / 911
+Gaps: 14.44 %
+Invariant sites: 17.02 %
+
+Partition 351: L20686.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2869 / 2460
+Gaps: 48.36 %
+Invariant sites: 6.24 %
+
+Partition 352: L20741.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1683 / 994
+Gaps: 20.46 %
+Invariant sites: 21.57 %
+
+Partition 353: L20769.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 957
+Gaps: 17.21 %
+Invariant sites: 17.09 %
+
+Partition 354: L20913.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1680 / 1035
+Gaps: 18.87 %
+Invariant sites: 13.51 %
+
+Partition 355: L20928.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1513 / 1044
+Gaps: 20.96 %
+Invariant sites: 15.93 %
+
+Partition 356: L20934.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1727 / 1040
+Gaps: 18.25 %
+Invariant sites: 15.92 %
+
+Partition 357: L20997.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1921 / 999
+Gaps: 15.53 %
+Invariant sites: 17.02 %
+
+Partition 358: L21058.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1781 / 1387
+Gaps: 23.44 %
+Invariant sites: 7.58 %
+
+Partition 359: L21101.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1775 / 1101
+Gaps: 22.91 %
+Invariant sites: 14.03 %
+
+Partition 360: L21112.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1692 / 1208
+Gaps: 17.61 %
+Invariant sites: 11.17 %
+
+Partition 361: L2115.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1821 / 1343
+Gaps: 21.15 %
+Invariant sites: 14.11 %
+
+Partition 362: L21185.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1796 / 1174
+Gaps: 14.54 %
+Invariant sites: 12.86 %
+
+Partition 363: L21272.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1742 / 1211
+Gaps: 19.99 %
+Invariant sites: 12.11 %
+
+Partition 364: L21287.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1802 / 995
+Gaps: 18.25 %
+Invariant sites: 18.70 %
+
+Partition 365: L2131.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1659 / 904
+Gaps: 16.81 %
+Invariant sites: 19.47 %
+
+Partition 366: L21362.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1835 / 1316
+Gaps: 18.29 %
+Invariant sites: 10.79 %
+
+Partition 367: L21363.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1812 / 1085
+Gaps: 16.82 %
+Invariant sites: 10.21 %
+
+Partition 368: L21447.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1707 / 1048
+Gaps: 17.75 %
+Invariant sites: 9.49 %
+
+Partition 369: L21464.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1758 / 1086
+Gaps: 20.42 %
+Invariant sites: 17.24 %
+
+Partition 370: L21465.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1803 / 769
+Gaps: 16.15 %
+Invariant sites: 18.52 %
+
+Partition 371: L21466.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1848 / 776
+Gaps: 14.67 %
+Invariant sites: 15.21 %
+
+Partition 372: L21472.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 783
+Gaps: 16.44 %
+Invariant sites: 17.51 %
+
+Partition 373: L21473.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1821 / 1079
+Gaps: 14.94 %
+Invariant sites: 9.50 %
+
+Partition 374: L21532.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1877 / 1229
+Gaps: 16.48 %
+Invariant sites: 13.37 %
+
+Partition 375: L21570.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1843 / 886
+Gaps: 15.35 %
+Invariant sites: 15.25 %
+
+Partition 376: L21618.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1767 / 929
+Gaps: 13.51 %
+Invariant sites: 11.15 %
+
+Partition 377: L21619.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1895 / 1044
+Gaps: 17.45 %
+Invariant sites: 14.04 %
+
+Partition 378: L21620.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1835 / 1113
+Gaps: 23.53 %
+Invariant sites: 22.02 %
+
+Partition 379: L21660.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1832 / 1098
+Gaps: 22.96 %
+Invariant sites: 16.65 %
+
+Partition 380: L21711.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1666 / 1070
+Gaps: 20.05 %
+Invariant sites: 17.59 %
+
+Partition 381: L21712.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 989
+Gaps: 16.26 %
+Invariant sites: 17.79 %
+
+Partition 382: L21739.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1582 / 1013
+Gaps: 15.56 %
+Invariant sites: 12.33 %
+
+Partition 383: L21761.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1688 / 954
+Gaps: 16.04 %
+Invariant sites: 14.40 %
+
+Partition 384: L2182.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1728 / 1286
+Gaps: 22.92 %
+Invariant sites: 15.86 %
+
+Partition 385: L21844.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1704 / 1263
+Gaps: 21.05 %
+Invariant sites: 9.10 %
+
+Partition 386: L21850.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1832 / 1421
+Gaps: 24.31 %
+Invariant sites: 10.86 %
+
+Partition 387: L21983.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1916 / 1118
+Gaps: 30.33 %
+Invariant sites: 22.60 %
+
+Partition 388: L22002.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1731 / 910
+Gaps: 15.66 %
+Invariant sites: 16.18 %
+
+Partition 389: L22004.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1892 / 1046
+Gaps: 15.22 %
+Invariant sites: 13.79 %
+
+Partition 390: L22006.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1986 / 1231
+Gaps: 16.20 %
+Invariant sites: 10.88 %
+
+Partition 391: L22078.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1666 / 1269
+Gaps: 22.15 %
+Invariant sites: 14.11 %
+
+Partition 392: L22102.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2178 / 1044
+Gaps: 12.31 %
+Invariant sites: 13.27 %
+
+Partition 393: L22103.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1871 / 756
+Gaps: 13.40 %
+Invariant sites: 18.49 %
+
+Partition 394: L22104.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1962 / 910
+Gaps: 15.77 %
+Invariant sites: 15.44 %
+
+Partition 395: L22106.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1981 / 927
+Gaps: 14.53 %
+Invariant sites: 14.29 %
+
+Partition 396: L22110.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 921
+Gaps: 17.13 %
+Invariant sites: 20.96 %
+
+Partition 397: L22116.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1916 / 776
+Gaps: 13.12 %
+Invariant sites: 17.01 %
+
+Partition 398: L22117.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2080 / 821
+Gaps: 12.23 %
+Invariant sites: 9.76 %
+
+Partition 399: L22118.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1811 / 847
+Gaps: 14.42 %
+Invariant sites: 12.04 %
+
+Partition 400: L22123.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1679 / 944
+Gaps: 19.10 %
+Invariant sites: 22.04 %
+
+Partition 401: L22145.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1738 / 865
+Gaps: 17.14 %
+Invariant sites: 19.91 %
+
+Partition 402: L22167.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 866
+Gaps: 20.60 %
+Invariant sites: 21.51 %
+
+Partition 403: L22168.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1746 / 973
+Gaps: 20.36 %
+Invariant sites: 19.99 %
+
+Partition 404: L22188.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2831 / 946
+Gaps: 12.08 %
+Invariant sites: 13.67 %
+
+Partition 405: L22266.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1857 / 1252
+Gaps: 21.26 %
+Invariant sites: 18.26 %
+
+Partition 406: L22268.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1653 / 729
+Gaps: 17.01 %
+Invariant sites: 20.57 %
+
+Partition 407: L22284.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 974
+Gaps: 17.82 %
+Invariant sites: 23.00 %
+
+Partition 408: L22366.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1860 / 1012
+Gaps: 14.81 %
+Invariant sites: 17.96 %
+
+Partition 409: L22411.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1747 / 1090
+Gaps: 22.92 %
+Invariant sites: 14.37 %
+
+Partition 410: L22452.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1891 / 1022
+Gaps: 15.99 %
+Invariant sites: 14.07 %
+
+Partition 411: L22464.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1883 / 969
+Gaps: 18.45 %
+Invariant sites: 16.99 %
+
+Partition 412: L22465.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1839 / 1039
+Gaps: 16.41 %
+Invariant sites: 10.01 %
+
+Partition 413: L22469.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1695 / 1012
+Gaps: 21.60 %
+Invariant sites: 20.83 %
+
+Partition 414: L22489.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1898 / 1312
+Gaps: 19.00 %
+Invariant sites: 12.22 %
+
+Partition 415: L22628.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1665 / 901
+Gaps: 15.29 %
+Invariant sites: 16.34 %
+
+Partition 416: L22635.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1444 / 1182
+Gaps: 23.76 %
+Invariant sites: 4.50 %
+
+Partition 417: L22703.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1762 / 1302
+Gaps: 19.00 %
+Invariant sites: 14.64 %
+
+Partition 418: L2271.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1728 / 1007
+Gaps: 25.03 %
+Invariant sites: 15.62 %
+
+Partition 419: L22758.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1732 / 861
+Gaps: 15.02 %
+Invariant sites: 15.76 %
+
+Partition 420: L22771.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1830 / 1253
+Gaps: 17.87 %
+Invariant sites: 13.72 %
+
+Partition 421: L22793.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1795 / 965
+Gaps: 15.49 %
+Invariant sites: 15.65 %
+
+Partition 422: L22858.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1651 / 1058
+Gaps: 24.67 %
+Invariant sites: 20.17 %
+
+Partition 423: L22880.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1573 / 990
+Gaps: 19.17 %
+Invariant sites: 12.91 %
+
+Partition 424: L22902.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1820 / 1190
+Gaps: 21.41 %
+Invariant sites: 7.31 %
+
+Partition 425: L22946.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1670 / 1179
+Gaps: 16.57 %
+Invariant sites: 10.30 %
+
+Partition 426: L22962.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1596 / 991
+Gaps: 20.02 %
+Invariant sites: 12.34 %
+
+Partition 427: L22963.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1807 / 1198
+Gaps: 23.14 %
+Invariant sites: 9.74 %
+
+Partition 428: L22972.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1656 / 1057
+Gaps: 16.11 %
+Invariant sites: 15.94 %
+
+Partition 429: L22974.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1662 / 1072
+Gaps: 15.41 %
+Invariant sites: 9.93 %
+
+Partition 430: L22.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1733 / 1021
+Gaps: 18.60 %
+Invariant sites: 18.58 %
+
+Partition 431: L23078.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1746 / 1058
+Gaps: 17.84 %
+Invariant sites: 16.95 %
+
+Partition 432: L23108.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1790 / 1047
+Gaps: 15.49 %
+Invariant sites: 13.91 %
+
+Partition 433: L23229.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1778 / 1030
+Gaps: 16.53 %
+Invariant sites: 16.48 %
+
+Partition 434: L23231.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1775 / 1224
+Gaps: 22.00 %
+Invariant sites: 7.83 %
+
+Partition 435: L23302.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1865 / 977
+Gaps: 18.14 %
+Invariant sites: 15.23 %
+
+Partition 436: L2330.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1779 / 1125
+Gaps: 22.17 %
+Invariant sites: 19.67 %
+
+Partition 437: L23342.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1898 / 1344
+Gaps: 31.65 %
+Invariant sites: 17.23 %
+
+Partition 438: L23477.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1788 / 1182
+Gaps: 22.50 %
+Invariant sites: 19.91 %
+
+Partition 439: L23490.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1757 / 1368
+Gaps: 35.97 %
+Invariant sites: 12.01 %
+
+Partition 440: L23619.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2244 / 1270
+Gaps: 15.86 %
+Invariant sites: 12.25 %
+
+Partition 441: L2378.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2208 / 1122
+Gaps: 15.57 %
+Invariant sites: 17.48 %
+
+Partition 442: L2379.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1803 / 1004
+Gaps: 18.83 %
+Invariant sites: 20.80 %
+
+Partition 443: L23828.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1703 / 1172
+Gaps: 25.53 %
+Invariant sites: 13.92 %
+
+Partition 444: L23831.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1694 / 1084
+Gaps: 27.53 %
+Invariant sites: 17.36 %
+
+Partition 445: L23864.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1619 / 1227
+Gaps: 27.18 %
+Invariant sites: 9.76 %
+
+Partition 446: L23868.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1750 / 962
+Gaps: 19.20 %
+Invariant sites: 22.86 %
+
+Partition 447: L23870.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1604 / 1255
+Gaps: 20.83 %
+Invariant sites: 8.10 %
+
+Partition 448: L23957.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1502 / 1126
+Gaps: 22.02 %
+Invariant sites: 7.46 %
+
+Partition 449: L23.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1941 / 1131
+Gaps: 15.51 %
+Invariant sites: 16.64 %
+
+Partition 450: L24017.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1645 / 800
+Gaps: 15.61 %
+Invariant sites: 13.86 %
+
+Partition 451: L24019.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1706 / 743
+Gaps: 15.31 %
+Invariant sites: 19.64 %
+
+Partition 452: L24023.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1714 / 844
+Gaps: 20.25 %
+Invariant sites: 19.19 %
+
+Partition 453: L24026.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1769 / 872
+Gaps: 16.84 %
+Invariant sites: 17.92 %
+
+Partition 454: L24028.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1939 / 851
+Gaps: 16.68 %
+Invariant sites: 18.46 %
+
+Partition 455: L24029.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2056 / 763
+Gaps: 12.93 %
+Invariant sites: 16.10 %
+
+Partition 456: L24030.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1929 / 703
+Gaps: 13.70 %
+Invariant sites: 17.68 %
+
+Partition 457: L24031.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1856 / 767
+Gaps: 15.68 %
+Invariant sites: 18.64 %
+
+Partition 458: L24032.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1827 / 880
+Gaps: 15.77 %
+Invariant sites: 13.36 %
+
+Partition 459: L24033.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1898 / 838
+Gaps: 15.29 %
+Invariant sites: 16.44 %
+
+Partition 460: L24046.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1761 / 1093
+Gaps: 16.59 %
+Invariant sites: 10.39 %
+
+Partition 461: L24047.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1770 / 1062
+Gaps: 17.02 %
+Invariant sites: 9.21 %
+
+Partition 462: L24048.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1734 / 1106
+Gaps: 21.37 %
+Invariant sites: 20.42 %
+
+Partition 463: L24133.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1805 / 1221
+Gaps: 19.56 %
+Invariant sites: 7.87 %
+
+Partition 464: L24145.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1858 / 1485
+Gaps: 21.13 %
+Invariant sites: 6.08 %
+
+Partition 465: L24180.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1623 / 1412
+Gaps: 29.04 %
+Invariant sites: 6.53 %
+
+Partition 466: L2420.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1666 / 1198
+Gaps: 21.18 %
+Invariant sites: 7.86 %
+
+Partition 467: L24292.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 979
+Gaps: 17.81 %
+Invariant sites: 17.30 %
+
+Partition 468: L24336.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 783
+Gaps: 17.11 %
+Invariant sites: 17.49 %
+
+Partition 469: L24351.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1676 / 1134
+Gaps: 33.52 %
+Invariant sites: 19.69 %
+
+Partition 470: L24352.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1955 / 1292
+Gaps: 25.56 %
+Invariant sites: 18.26 %
+
+Partition 471: L24362.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1618 / 1192
+Gaps: 23.31 %
+Invariant sites: 11.68 %
+
+Partition 472: L24388.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2445 / 1360
+Gaps: 15.67 %
+Invariant sites: 13.29 %
+
+Partition 473: L24492.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1700 / 1158
+Gaps: 16.91 %
+Invariant sites: 16.29 %
+
+Partition 474: L24511.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1736 / 981
+Gaps: 18.38 %
+Invariant sites: 18.20 %
+
+Partition 475: L24541.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1726 / 1310
+Gaps: 26.03 %
+Invariant sites: 15.35 %
+
+Partition 476: L24547.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1733 / 1195
+Gaps: 19.73 %
+Invariant sites: 21.35 %
+
+Partition 477: L24554.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1711 / 1278
+Gaps: 28.72 %
+Invariant sites: 8.18 %
+
+Partition 478: L24557.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1713 / 844
+Gaps: 15.41 %
+Invariant sites: 18.04 %
+
+Partition 479: L24734.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1810 / 1236
+Gaps: 20.63 %
+Invariant sites: 11.44 %
+
+Partition 480: L24743.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1702 / 1137
+Gaps: 17.96 %
+Invariant sites: 17.16 %
+
+Partition 481: L24763.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1759 / 1393
+Gaps: 20.85 %
+Invariant sites: 12.79 %
+
+Partition 482: L24767.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1805 / 951
+Gaps: 14.35 %
+Invariant sites: 14.85 %
+
+Partition 483: L24784.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1699 / 1143
+Gaps: 23.79 %
+Invariant sites: 19.31 %
+
+Partition 484: L24833.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1797 / 1321
+Gaps: 21.37 %
+Invariant sites: 11.46 %
+
+Partition 485: L24858.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1695 / 1366
+Gaps: 27.29 %
+Invariant sites: 12.86 %
+
+Partition 486: L2492.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1730 / 1127
+Gaps: 18.58 %
+Invariant sites: 15.09 %
+
+Partition 487: L24.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1738 / 1425
+Gaps: 25.55 %
+Invariant sites: 5.93 %
+
+Partition 488: L25132.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1735 / 1298
+Gaps: 21.07 %
+Invariant sites: 9.86 %
+
+Partition 489: L25154.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1644 / 1120
+Gaps: 18.23 %
+Invariant sites: 13.38 %
+
+Partition 490: L25184.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1424
+Gaps: 23.70 %
+Invariant sites: 8.48 %
+
+Partition 491: L25187.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 938
+Gaps: 17.22 %
+Invariant sites: 18.01 %
+
+Partition 492: L25273.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1740 / 933
+Gaps: 16.42 %
+Invariant sites: 13.22 %
+
+Partition 493: L25322.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1892 / 1339
+Gaps: 21.79 %
+Invariant sites: 10.62 %
+
+Partition 494: L25346.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1827 / 1428
+Gaps: 27.96 %
+Invariant sites: 9.47 %
+
+Partition 495: L25350.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 1248
+Gaps: 24.97 %
+Invariant sites: 16.23 %
+
+Partition 496: L25441.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1601 / 1011
+Gaps: 19.84 %
+Invariant sites: 19.43 %
+
+Partition 497: L25446.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1675 / 1133
+Gaps: 17.42 %
+Invariant sites: 13.79 %
+
+Partition 498: L25483.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1648 / 1060
+Gaps: 17.99 %
+Invariant sites: 16.63 %
+
+Partition 499: L25607.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2009 / 1157
+Gaps: 14.23 %
+Invariant sites: 9.96 %
+
+Partition 500: L25677.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1647 / 994
+Gaps: 23.11 %
+Invariant sites: 20.22 %
+
+Partition 501: L25695.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2264 / 1655
+Gaps: 31.49 %
+Invariant sites: 18.11 %
+
+Partition 502: L25696.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1971 / 1358
+Gaps: 28.25 %
+Invariant sites: 14.00 %
+
+Partition 503: L25697.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1995 / 1456
+Gaps: 27.19 %
+Invariant sites: 18.65 %
+
+Partition 504: L25786.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1841 / 1512
+Gaps: 37.31 %
+Invariant sites: 15.05 %
+
+Partition 505: L25789.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1781 / 1412
+Gaps: 19.67 %
+Invariant sites: 8.59 %
+
+Partition 506: L25790.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1769 / 1198
+Gaps: 17.52 %
+Invariant sites: 13.79 %
+
+Partition 507: L25793.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2186 / 1059
+Gaps: 19.97 %
+Invariant sites: 15.65 %
+
+Partition 508: L25812.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1785 / 693
+Gaps: 13.27 %
+Invariant sites: 14.62 %
+
+Partition 509: L25815.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1864 / 698
+Gaps: 14.57 %
+Invariant sites: 15.56 %
+
+Partition 510: L25822.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1790 / 1000
+Gaps: 17.79 %
+Invariant sites: 16.26 %
+
+Partition 511: L25823.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1810 / 922
+Gaps: 15.14 %
+Invariant sites: 15.58 %
+
+Partition 512: L25825.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1761 / 778
+Gaps: 14.90 %
+Invariant sites: 19.82 %
+
+Partition 513: L25827.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1906 / 701
+Gaps: 16.96 %
+Invariant sites: 19.36 %
+
+Partition 514: L25939.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1638 / 1154
+Gaps: 20.07 %
+Invariant sites: 20.33 %
+
+Partition 515: L25950.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1192
+Gaps: 18.27 %
+Invariant sites: 14.90 %
+
+Partition 516: L25951.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1833 / 1211
+Gaps: 20.40 %
+Invariant sites: 15.22 %
+
+Partition 517: L25952.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1588 / 1002
+Gaps: 22.15 %
+Invariant sites: 14.99 %
+
+Partition 518: L25953.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1815 / 1274
+Gaps: 21.20 %
+Invariant sites: 16.80 %
+
+Partition 519: L25971.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1710 / 883
+Gaps: 31.74 %
+Invariant sites: 20.76 %
+
+Partition 520: L26040.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2445 / 1442
+Gaps: 18.15 %
+Invariant sites: 6.46 %
+
+Partition 521: L2611.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1732 / 1262
+Gaps: 17.41 %
+Invariant sites: 12.12 %
+
+Partition 522: L26296.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1703 / 978
+Gaps: 15.94 %
+Invariant sites: 15.27 %
+
+Partition 523: L26383.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2056 / 1117
+Gaps: 19.72 %
+Invariant sites: 16.05 %
+
+Partition 524: L26420.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1568 / 1198
+Gaps: 19.68 %
+Invariant sites: 17.28 %
+
+Partition 525: L26495.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1620 / 1195
+Gaps: 22.53 %
+Invariant sites: 14.51 %
+
+Partition 526: L26501.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 1496
+Gaps: 24.49 %
+Invariant sites: 8.78 %
+
+Partition 527: L26580.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1704 / 1261
+Gaps: 24.60 %
+Invariant sites: 18.19 %
+
+Partition 528: L26631.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1815 / 1370
+Gaps: 16.79 %
+Invariant sites: 7.82 %
+
+Partition 529: L26634.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 1034
+Gaps: 19.89 %
+Invariant sites: 22.75 %
+
+Partition 530: L26635.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1852 / 1045
+Gaps: 23.05 %
+Invariant sites: 22.19 %
+
+Partition 531: L26637.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1074
+Gaps: 16.01 %
+Invariant sites: 11.15 %
+
+Partition 532: L26649.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1939 / 1368
+Gaps: 19.19 %
+Invariant sites: 13.05 %
+
+Partition 533: L26674.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 1247
+Gaps: 15.94 %
+Invariant sites: 13.38 %
+
+Partition 534: L26718.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1198
+Gaps: 20.27 %
+Invariant sites: 15.01 %
+
+Partition 535: L26724.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 1043
+Gaps: 14.56 %
+Invariant sites: 16.04 %
+
+Partition 536: L26784.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1767 / 741
+Gaps: 15.24 %
+Invariant sites: 18.85 %
+
+Partition 537: L26846.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1049
+Gaps: 18.90 %
+Invariant sites: 21.21 %
+
+Partition 538: L26912.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1719 / 1155
+Gaps: 20.80 %
+Invariant sites: 18.21 %
+
+Partition 539: L27031.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1736 / 1509
+Gaps: 25.40 %
+Invariant sites: 6.85 %
+
+Partition 540: L27056.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1673 / 925
+Gaps: 17.30 %
+Invariant sites: 16.38 %
+
+Partition 541: L27060.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1692 / 1006
+Gaps: 16.99 %
+Invariant sites: 16.73 %
+
+Partition 542: L27079.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1516 / 962
+Gaps: 20.18 %
+Invariant sites: 13.79 %
+
+Partition 543: L27156.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1830 / 980
+Gaps: 18.03 %
+Invariant sites: 10.82 %
+
+Partition 544: L27166.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1687 / 1177
+Gaps: 20.46 %
+Invariant sites: 12.92 %
+
+Partition 545: L27169.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1769 / 1133
+Gaps: 20.17 %
+Invariant sites: 12.44 %
+
+Partition 546: L27211.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1714 / 1131
+Gaps: 24.90 %
+Invariant sites: 14.88 %
+
+Partition 547: L27229.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1750 / 911
+Gaps: 16.46 %
+Invariant sites: 18.46 %
+
+Partition 548: L27246.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1958 / 960
+Gaps: 15.98 %
+Invariant sites: 19.00 %
+
+Partition 549: L27314.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1837 / 1207
+Gaps: 21.43 %
+Invariant sites: 17.69 %
+
+Partition 550: L27405.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1926 / 896
+Gaps: 17.58 %
+Invariant sites: 17.65 %
+
+Partition 551: L27406.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1666 / 959
+Gaps: 23.89 %
+Invariant sites: 15.91 %
+
+Partition 552: L27459.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1566 / 1059
+Gaps: 28.17 %
+Invariant sites: 11.69 %
+
+Partition 553: L27479.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 857
+Gaps: 23.46 %
+Invariant sites: 19.49 %
+
+Partition 554: L27500.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1660 / 1131
+Gaps: 18.41 %
+Invariant sites: 19.40 %
+
+Partition 555: L27595.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1675 / 1254
+Gaps: 17.31 %
+Invariant sites: 12.78 %
+
+Partition 556: L27613.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1718 / 909
+Gaps: 17.64 %
+Invariant sites: 17.69 %
+
+Partition 557: L27619.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1817 / 1233
+Gaps: 17.76 %
+Invariant sites: 12.16 %
+
+Partition 558: L27620.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1970 / 1039
+Gaps: 15.63 %
+Invariant sites: 16.04 %
+
+Partition 559: L27621.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2012 / 1036
+Gaps: 15.58 %
+Invariant sites: 16.60 %
+
+Partition 560: L27624.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1805 / 853
+Gaps: 14.85 %
+Invariant sites: 17.56 %
+
+Partition 561: L27639.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1612 / 936
+Gaps: 19.72 %
+Invariant sites: 21.77 %
+
+Partition 562: L2765.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1863 / 967
+Gaps: 20.44 %
+Invariant sites: 8.86 %
+
+Partition 563: L2767.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2111 / 935
+Gaps: 13.06 %
+Invariant sites: 11.61 %
+
+Partition 564: L2770.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1733 / 1174
+Gaps: 19.09 %
+Invariant sites: 10.85 %
+
+Partition 565: L27725.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1918 / 1117
+Gaps: 18.68 %
+Invariant sites: 16.27 %
+
+Partition 566: L2776.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1855 / 1340
+Gaps: 20.84 %
+Invariant sites: 12.88 %
+
+Partition 567: L27778.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1786 / 910
+Gaps: 15.64 %
+Invariant sites: 12.65 %
+
+Partition 568: L27842.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 1035
+Gaps: 19.68 %
+Invariant sites: 21.21 %
+
+Partition 569: L27865.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 913
+Gaps: 17.23 %
+Invariant sites: 18.01 %
+
+Partition 570: L27913.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1883 / 1269
+Gaps: 18.73 %
+Invariant sites: 11.15 %
+
+Partition 571: L27915.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2773 / 1509
+Gaps: 17.52 %
+Invariant sites: 13.45 %
+
+Partition 572: L27958.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1636 / 1256
+Gaps: 28.17 %
+Invariant sites: 18.64 %
+
+Partition 573: L28011.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1934 / 1367
+Gaps: 25.83 %
+Invariant sites: 11.17 %
+
+Partition 574: L28042.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1199
+Gaps: 23.98 %
+Invariant sites: 12.90 %
+
+Partition 575: L28111.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1642 / 1048
+Gaps: 21.38 %
+Invariant sites: 17.66 %
+
+Partition 576: L28115.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1935 / 927
+Gaps: 13.35 %
+Invariant sites: 11.94 %
+
+Partition 577: L28127.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2354 / 1095
+Gaps: 12.95 %
+Invariant sites: 13.00 %
+
+Partition 578: L28128.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1759 / 981
+Gaps: 17.94 %
+Invariant sites: 17.79 %
+
+Partition 579: L28148.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1703 / 800
+Gaps: 23.67 %
+Invariant sites: 16.79 %
+
+Partition 580: L28221.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1804 / 1294
+Gaps: 24.42 %
+Invariant sites: 16.35 %
+
+Partition 581: L28222.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1969 / 1220
+Gaps: 22.15 %
+Invariant sites: 16.56 %
+
+Partition 582: L28265.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1804 / 974
+Gaps: 17.39 %
+Invariant sites: 14.19 %
+
+Partition 583: L28316.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1770 / 1025
+Gaps: 19.87 %
+Invariant sites: 20.28 %
+
+Partition 584: L28479.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 1029
+Gaps: 18.88 %
+Invariant sites: 20.95 %
+
+Partition 585: L2858.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1714 / 1027
+Gaps: 15.82 %
+Invariant sites: 13.13 %
+
+Partition 586: L28696.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1698 / 934
+Gaps: 20.82 %
+Invariant sites: 20.38 %
+
+Partition 587: L28712.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1892 / 1202
+Gaps: 19.76 %
+Invariant sites: 10.31 %
+
+Partition 588: L28715.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1712 / 805
+Gaps: 16.59 %
+Invariant sites: 20.50 %
+
+Partition 589: L28716.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1915 / 1151
+Gaps: 19.52 %
+Invariant sites: 11.28 %
+
+Partition 590: L28732.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1570 / 1019
+Gaps: 26.31 %
+Invariant sites: 10.76 %
+
+Partition 591: L28761.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1781 / 1190
+Gaps: 21.39 %
+Invariant sites: 22.85 %
+
+Partition 592: L28770.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1880 / 1312
+Gaps: 25.82 %
+Invariant sites: 15.64 %
+
+Partition 593: L28771.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1770 / 1285
+Gaps: 18.69 %
+Invariant sites: 13.11 %
+
+Partition 594: L28784.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1743 / 1130
+Gaps: 17.90 %
+Invariant sites: 17.84 %
+
+Partition 595: L28940.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1759 / 1008
+Gaps: 20.51 %
+Invariant sites: 18.36 %
+
+Partition 596: L28973.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1917 / 1749
+Gaps: 36.73 %
+Invariant sites: 6.31 %
+
+Partition 597: L29030.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1742 / 1214
+Gaps: 23.26 %
+Invariant sites: 16.70 %
+
+Partition 598: L29066.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1777 / 1178
+Gaps: 15.11 %
+Invariant sites: 13.67 %
+
+Partition 599: L29103.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1502 / 899
+Gaps: 30.64 %
+Invariant sites: 13.91 %
+
+Partition 600: L29139.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1706 / 1243
+Gaps: 17.42 %
+Invariant sites: 9.55 %
+
+Partition 601: L29159.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1704 / 1150
+Gaps: 20.00 %
+Invariant sites: 10.56 %
+
+Partition 602: L29172.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1660 / 1503
+Gaps: 24.41 %
+Invariant sites: 6.20 %
+
+Partition 603: L29250.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1667 / 1301
+Gaps: 23.34 %
+Invariant sites: 13.14 %
+
+Partition 604: L29288.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1595 / 1178
+Gaps: 21.10 %
+Invariant sites: 14.48 %
+
+Partition 605: L29307.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1686 / 940
+Gaps: 21.70 %
+Invariant sites: 16.25 %
+
+Partition 606: L29337.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1626 / 1032
+Gaps: 21.11 %
+Invariant sites: 18.57 %
+
+Partition 607: L29352.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1798 / 1078
+Gaps: 17.41 %
+Invariant sites: 21.36 %
+
+Partition 608: L29353.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1809 / 1238
+Gaps: 17.58 %
+Invariant sites: 10.61 %
+
+Partition 609: L29395.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1901 / 1363
+Gaps: 27.00 %
+Invariant sites: 13.41 %
+
+Partition 610: L29396.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1745 / 1177
+Gaps: 25.87 %
+Invariant sites: 16.91 %
+
+Partition 611: L2940.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1653 / 803
+Gaps: 18.12 %
+Invariant sites: 16.39 %
+
+Partition 612: L2950.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1788 / 781
+Gaps: 14.31 %
+Invariant sites: 18.90 %
+
+Partition 613: L29541.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1683 / 1124
+Gaps: 17.39 %
+Invariant sites: 14.62 %
+
+Partition 614: L295.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1729 / 875
+Gaps: 19.01 %
+Invariant sites: 20.94 %
+
+Partition 615: L29869.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1728 / 1007
+Gaps: 18.14 %
+Invariant sites: 13.02 %
+
+Partition 616: L29920.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1651 / 1097
+Gaps: 23.45 %
+Invariant sites: 13.87 %
+
+Partition 617: L30013.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1725 / 1368
+Gaps: 21.23 %
+Invariant sites: 10.26 %
+
+Partition 618: L30038.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2503 / 993
+Gaps: 11.40 %
+Invariant sites: 10.95 %
+
+Partition 619: L30077.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1973 / 1125
+Gaps: 17.82 %
+Invariant sites: 17.23 %
+
+Partition 620: L30105.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1843 / 1281
+Gaps: 19.52 %
+Invariant sites: 10.09 %
+
+Partition 621: L3010.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1743 / 904
+Gaps: 16.51 %
+Invariant sites: 17.21 %
+
+Partition 622: L30110.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1637 / 1003
+Gaps: 20.12 %
+Invariant sites: 21.26 %
+
+Partition 623: L30181.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 1106
+Gaps: 18.69 %
+Invariant sites: 13.14 %
+
+Partition 624: L30194.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1674 / 1095
+Gaps: 20.69 %
+Invariant sites: 17.74 %
+
+Partition 625: L30261.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 1108
+Gaps: 21.01 %
+Invariant sites: 19.63 %
+
+Partition 626: L30262.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1837 / 1166
+Gaps: 18.42 %
+Invariant sites: 16.88 %
+
+Partition 627: L30263.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1824 / 1236
+Gaps: 19.70 %
+Invariant sites: 15.90 %
+
+Partition 628: L30264.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1684 / 1269
+Gaps: 19.62 %
+Invariant sites: 17.16 %
+
+Partition 629: L3026.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2263 / 1079
+Gaps: 11.70 %
+Invariant sites: 11.49 %
+
+Partition 630: L30276.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1446 / 1077
+Gaps: 25.19 %
+Invariant sites: 12.86 %
+
+Partition 631: L30286.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2058 / 1166
+Gaps: 19.76 %
+Invariant sites: 13.85 %
+
+Partition 632: L30346.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1834 / 1079
+Gaps: 14.63 %
+Invariant sites: 12.21 %
+
+Partition 633: L3042.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1648 / 1199
+Gaps: 24.09 %
+Invariant sites: 13.77 %
+
+Partition 634: L30482.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2094 / 1360
+Gaps: 16.26 %
+Invariant sites: 7.55 %
+
+Partition 635: L3049.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1712 / 1239
+Gaps: 18.93 %
+Invariant sites: 12.62 %
+
+Partition 636: L30511.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1852 / 858
+Gaps: 16.13 %
+Invariant sites: 15.17 %
+
+Partition 637: L30524.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1716 / 928
+Gaps: 17.07 %
+Invariant sites: 15.73 %
+
+Partition 638: L30525.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1729 / 939
+Gaps: 15.73 %
+Invariant sites: 13.53 %
+
+Partition 639: L30526.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1700 / 813
+Gaps: 18.45 %
+Invariant sites: 20.76 %
+
+Partition 640: L30529.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1787 / 925
+Gaps: 16.25 %
+Invariant sites: 15.05 %
+
+Partition 641: L30531.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1806 / 1050
+Gaps: 23.40 %
+Invariant sites: 18.05 %
+
+Partition 642: L30656.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 964
+Gaps: 20.72 %
+Invariant sites: 15.87 %
+
+Partition 643: L30658.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1622 / 1069
+Gaps: 17.36 %
+Invariant sites: 17.02 %
+
+Partition 644: L30697.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1838 / 1337
+Gaps: 24.62 %
+Invariant sites: 13.93 %
+
+Partition 645: L30742.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1706 / 796
+Gaps: 17.91 %
+Invariant sites: 14.07 %
+
+Partition 646: L30771.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 894
+Gaps: 15.32 %
+Invariant sites: 19.21 %
+
+Partition 647: L30772.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1953 / 1104
+Gaps: 14.73 %
+Invariant sites: 17.26 %
+
+Partition 648: L30777.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1870 / 1027
+Gaps: 18.36 %
+Invariant sites: 18.98 %
+
+Partition 649: L30778.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1740 / 963
+Gaps: 17.07 %
+Invariant sites: 18.05 %
+
+Partition 650: L30792.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1649 / 894
+Gaps: 25.00 %
+Invariant sites: 23.47 %
+
+Partition 651: L30831.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1800 / 1182
+Gaps: 25.29 %
+Invariant sites: 10.67 %
+
+Partition 652: L30834.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1866 / 1074
+Gaps: 16.08 %
+Invariant sites: 14.20 %
+
+Partition 653: L30854.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1247
+Gaps: 19.27 %
+Invariant sites: 17.24 %
+
+Partition 654: L30857.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1672 / 1088
+Gaps: 20.85 %
+Invariant sites: 17.58 %
+
+Partition 655: L30858.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1778 / 1174
+Gaps: 24.99 %
+Invariant sites: 16.14 %
+
+Partition 656: L30869.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1694 / 1227
+Gaps: 21.31 %
+Invariant sites: 13.40 %
+
+Partition 657: L30972.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1671 / 1098
+Gaps: 19.00 %
+Invariant sites: 14.36 %
+
+Partition 658: L31005.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1569 / 966
+Gaps: 29.43 %
+Invariant sites: 22.63 %
+
+Partition 659: L31013.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2195 / 918
+Gaps: 12.15 %
+Invariant sites: 11.89 %
+
+Partition 660: L31014.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1823 / 882
+Gaps: 15.33 %
+Invariant sites: 12.67 %
+
+Partition 661: L31015.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 1127
+Gaps: 21.52 %
+Invariant sites: 16.38 %
+
+Partition 662: L31016.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1958 / 1123
+Gaps: 20.21 %
+Invariant sites: 14.81 %
+
+Partition 663: L31056.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1843 / 940
+Gaps: 13.84 %
+Invariant sites: 20.08 %
+
+Partition 664: L31060.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1756 / 875
+Gaps: 18.21 %
+Invariant sites: 15.72 %
+
+Partition 665: L31128.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2000 / 1388
+Gaps: 18.72 %
+Invariant sites: 10.25 %
+
+Partition 666: L3116.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1662 / 1177
+Gaps: 20.52 %
+Invariant sites: 14.56 %
+
+Partition 667: L31205.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1897 / 1200
+Gaps: 18.37 %
+Invariant sites: 18.19 %
+
+Partition 668: L31241.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1587 / 1125
+Gaps: 21.55 %
+Invariant sites: 13.74 %
+
+Partition 669: L3124.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1807 / 1364
+Gaps: 17.86 %
+Invariant sites: 5.59 %
+
+Partition 670: L31257.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1740 / 1245
+Gaps: 20.34 %
+Invariant sites: 10.46 %
+
+Partition 671: L31297.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 1165
+Gaps: 17.78 %
+Invariant sites: 11.57 %
+
+Partition 672: L31298.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 1023
+Gaps: 18.71 %
+Invariant sites: 16.32 %
+
+Partition 673: L31300.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1821 / 1089
+Gaps: 22.00 %
+Invariant sites: 22.30 %
+
+Partition 674: L31473.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 814
+Gaps: 15.82 %
+Invariant sites: 21.30 %
+
+Partition 675: L31475.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2012 / 1126
+Gaps: 16.06 %
+Invariant sites: 12.97 %
+
+Partition 676: L31494.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 913
+Gaps: 16.85 %
+Invariant sites: 17.34 %
+
+Partition 677: L31495.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2109 / 1023
+Gaps: 15.61 %
+Invariant sites: 18.07 %
+
+Partition 678: L31496.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2245 / 1138
+Gaps: 13.41 %
+Invariant sites: 12.43 %
+
+Partition 679: L31497.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1815 / 1093
+Gaps: 19.82 %
+Invariant sites: 20.50 %
+
+Partition 680: L31527.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1774 / 1027
+Gaps: 16.94 %
+Invariant sites: 16.29 %
+
+Partition 681: L31543.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1764 / 1345
+Gaps: 18.44 %
+Invariant sites: 13.21 %
+
+Partition 682: L31660.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2140 / 1445
+Gaps: 23.79 %
+Invariant sites: 11.54 %
+
+Partition 683: L31666.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1660 / 826
+Gaps: 15.43 %
+Invariant sites: 16.14 %
+
+Partition 684: L31706.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1997 / 844
+Gaps: 14.51 %
+Invariant sites: 16.73 %
+
+Partition 685: L31801.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1795 / 877
+Gaps: 18.34 %
+Invariant sites: 14.26 %
+
+Partition 686: L31802.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1672 / 877
+Gaps: 21.74 %
+Invariant sites: 16.75 %
+
+Partition 687: L31847.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1820 / 1155
+Gaps: 20.00 %
+Invariant sites: 18.41 %
+
+Partition 688: L31864.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2163 / 1382
+Gaps: 20.92 %
+Invariant sites: 12.85 %
+
+Partition 689: L3190.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1739 / 981
+Gaps: 21.20 %
+Invariant sites: 18.98 %
+
+Partition 690: L31919.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1772 / 1173
+Gaps: 19.36 %
+Invariant sites: 14.79 %
+
+Partition 691: L31935.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1586 / 1121
+Gaps: 18.30 %
+Invariant sites: 11.16 %
+
+Partition 692: L31958.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1824 / 884
+Gaps: 17.13 %
+Invariant sites: 19.08 %
+
+Partition 693: L31971.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1828 / 1161
+Gaps: 20.95 %
+Invariant sites: 16.08 %
+
+Partition 694: L32123.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1882 / 1057
+Gaps: 20.82 %
+Invariant sites: 22.16 %
+
+Partition 695: L32133.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1121
+Gaps: 22.74 %
+Invariant sites: 14.76 %
+
+Partition 696: L32234.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1772 / 1141
+Gaps: 26.21 %
+Invariant sites: 22.46 %
+
+Partition 697: L32235.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1737 / 1113
+Gaps: 21.60 %
+Invariant sites: 20.50 %
+
+Partition 698: L32236.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1629 / 1086
+Gaps: 19.81 %
+Invariant sites: 19.46 %
+
+Partition 699: L32239.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1539 / 1054
+Gaps: 18.02 %
+Invariant sites: 19.75 %
+
+Partition 700: L3231.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1551 / 1004
+Gaps: 18.54 %
+Invariant sites: 12.38 %
+
+Partition 701: L32364.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1985 / 836
+Gaps: 14.79 %
+Invariant sites: 17.98 %
+
+Partition 702: L32367.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1674 / 919
+Gaps: 16.04 %
+Invariant sites: 11.35 %
+
+Partition 703: L32393.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1710 / 1100
+Gaps: 19.59 %
+Invariant sites: 17.49 %
+
+Partition 704: L32449.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1717 / 952
+Gaps: 16.57 %
+Invariant sites: 13.98 %
+
+Partition 705: L3245.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1921 / 884
+Gaps: 17.28 %
+Invariant sites: 13.79 %
+
+Partition 706: L32559.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1774 / 939
+Gaps: 17.28 %
+Invariant sites: 19.39 %
+
+Partition 707: L32585.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 1183
+Gaps: 22.12 %
+Invariant sites: 14.16 %
+
+Partition 708: L32590.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1835 / 1102
+Gaps: 16.26 %
+Invariant sites: 16.62 %
+
+Partition 709: L32627.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1688 / 1239
+Gaps: 32.56 %
+Invariant sites: 14.40 %
+
+Partition 710: L32651.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1802 / 1442
+Gaps: 23.38 %
+Invariant sites: 6.77 %
+
+Partition 711: L32679.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1880 / 1220
+Gaps: 34.92 %
+Invariant sites: 8.78 %
+
+Partition 712: L32710.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1727 / 1109
+Gaps: 22.02 %
+Invariant sites: 17.54 %
+
+Partition 713: L3279.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1722 / 924
+Gaps: 18.83 %
+Invariant sites: 16.78 %
+
+Partition 714: L32830.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1808 / 1169
+Gaps: 20.87 %
+Invariant sites: 7.36 %
+
+Partition 715: L32884.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1535 / 1242
+Gaps: 30.35 %
+Invariant sites: 7.49 %
+
+Partition 716: L32885.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1710 / 1072
+Gaps: 16.97 %
+Invariant sites: 15.50 %
+
+Partition 717: L32921.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1655 / 1188
+Gaps: 20.17 %
+Invariant sites: 14.50 %
+
+Partition 718: L3294.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2876 / 1506
+Gaps: 14.54 %
+Invariant sites: 11.16 %
+
+Partition 719: L33004.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1642 / 1065
+Gaps: 16.06 %
+Invariant sites: 9.87 %
+
+Partition 720: L33147.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1711 / 1104
+Gaps: 19.45 %
+Invariant sites: 18.47 %
+
+Partition 721: L33152.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 938
+Gaps: 19.29 %
+Invariant sites: 20.28 %
+
+Partition 722: L33157.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1702 / 888
+Gaps: 17.06 %
+Invariant sites: 16.69 %
+
+Partition 723: L33167.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 1177
+Gaps: 18.66 %
+Invariant sites: 9.38 %
+
+Partition 724: L33168.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2270 / 978
+Gaps: 12.33 %
+Invariant sites: 11.32 %
+
+Partition 725: L33170.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1646 / 1070
+Gaps: 15.35 %
+Invariant sites: 12.94 %
+
+Partition 726: L33239.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 1448
+Gaps: 31.80 %
+Invariant sites: 10.85 %
+
+Partition 727: L33246.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1006
+Gaps: 16.57 %
+Invariant sites: 16.52 %
+
+Partition 728: L33279.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1601 / 1180
+Gaps: 20.27 %
+Invariant sites: 8.37 %
+
+Partition 729: L33286.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1624 / 1074
+Gaps: 17.38 %
+Invariant sites: 14.10 %
+
+Partition 730: L33339.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1824 / 1191
+Gaps: 20.93 %
+Invariant sites: 13.05 %
+
+Partition 731: L33362.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1850 / 1443
+Gaps: 21.04 %
+Invariant sites: 7.24 %
+
+Partition 732: L33369.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1761 / 1039
+Gaps: 15.52 %
+Invariant sites: 15.62 %
+
+Partition 733: L33383.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2883 / 995
+Gaps: 8.72 %
+Invariant sites: 10.79 %
+
+Partition 734: L33437.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1683 / 768
+Gaps: 15.46 %
+Invariant sites: 18.18 %
+
+Partition 735: L33620.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1813 / 981
+Gaps: 16.35 %
+Invariant sites: 18.48 %
+
+Partition 736: L33627.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1946 / 1054
+Gaps: 18.97 %
+Invariant sites: 17.78 %
+
+Partition 737: L33632.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 977
+Gaps: 19.97 %
+Invariant sites: 15.64 %
+
+Partition 738: L33663.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 1010
+Gaps: 16.72 %
+Invariant sites: 18.61 %
+
+Partition 739: L33694.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 1211
+Gaps: 20.53 %
+Invariant sites: 9.58 %
+
+Partition 740: L3373.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1914 / 1292
+Gaps: 21.39 %
+Invariant sites: 18.91 %
+
+Partition 741: L33830.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1729 / 1185
+Gaps: 16.76 %
+Invariant sites: 12.78 %
+
+Partition 742: L33835.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1809 / 1397
+Gaps: 23.38 %
+Invariant sites: 11.39 %
+
+Partition 743: L33853.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 976
+Gaps: 19.85 %
+Invariant sites: 19.26 %
+
+Partition 744: L33854.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1784 / 999
+Gaps: 18.66 %
+Invariant sites: 21.47 %
+
+Partition 745: L3387.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1799 / 1364
+Gaps: 19.58 %
+Invariant sites: 11.01 %
+
+Partition 746: L33935.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1894 / 1228
+Gaps: 17.77 %
+Invariant sites: 11.72 %
+
+Partition 747: L33962.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 1261
+Gaps: 24.64 %
+Invariant sites: 12.96 %
+
+Partition 748: L34029.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1878 / 1091
+Gaps: 19.02 %
+Invariant sites: 13.26 %
+
+Partition 749: L3402.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1014
+Gaps: 23.36 %
+Invariant sites: 24.33 %
+
+Partition 750: L34082.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2022 / 1351
+Gaps: 16.30 %
+Invariant sites: 12.91 %
+
+Partition 751: L34124.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 676
+Gaps: 23.63 %
+Invariant sites: 14.38 %
+
+Partition 752: L34133.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2059 / 1115
+Gaps: 16.53 %
+Invariant sites: 17.10 %
+
+Partition 753: L34154.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1709 / 1235
+Gaps: 19.79 %
+Invariant sites: 14.22 %
+
+Partition 754: L34332.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1867 / 1191
+Gaps: 21.28 %
+Invariant sites: 16.18 %
+
+Partition 755: L34378.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1738 / 933
+Gaps: 17.11 %
+Invariant sites: 19.33 %
+
+Partition 756: L3439.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 862
+Gaps: 16.13 %
+Invariant sites: 18.67 %
+
+Partition 757: L34453.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1833 / 1496
+Gaps: 30.61 %
+Invariant sites: 10.42 %
+
+Partition 758: L34486.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1762 / 1004
+Gaps: 19.10 %
+Invariant sites: 20.26 %
+
+Partition 759: L34501.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1808 / 1490
+Gaps: 19.16 %
+Invariant sites: 10.45 %
+
+Partition 760: L34505.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1717 / 964
+Gaps: 20.96 %
+Invariant sites: 22.66 %
+
+Partition 761: L34508.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1637 / 1218
+Gaps: 21.16 %
+Invariant sites: 8.61 %
+
+Partition 762: L34510.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1716 / 1049
+Gaps: 17.87 %
+Invariant sites: 18.18 %
+
+Partition 763: L34539.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1707 / 975
+Gaps: 21.32 %
+Invariant sites: 14.24 %
+
+Partition 764: L34607.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1930 / 1063
+Gaps: 19.19 %
+Invariant sites: 11.71 %
+
+Partition 765: L34698.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1814 / 949
+Gaps: 16.28 %
+Invariant sites: 18.69 %
+
+Partition 766: L34700.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 931
+Gaps: 16.25 %
+Invariant sites: 14.02 %
+
+Partition 767: L34792.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1764 / 1543
+Gaps: 38.86 %
+Invariant sites: 8.45 %
+
+Partition 768: L34798.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1653 / 1231
+Gaps: 20.57 %
+Invariant sites: 12.83 %
+
+Partition 769: L34802.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1901 / 1474
+Gaps: 22.72 %
+Invariant sites: 10.68 %
+
+Partition 770: L34810.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1658 / 780
+Gaps: 15.92 %
+Invariant sites: 19.12 %
+
+Partition 771: L34814.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1700 / 896
+Gaps: 13.41 %
+Invariant sites: 13.65 %
+
+Partition 772: L34905.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1770 / 908
+Gaps: 15.94 %
+Invariant sites: 20.85 %
+
+Partition 773: L34926.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1015
+Gaps: 17.41 %
+Invariant sites: 15.78 %
+
+Partition 774: L34949.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1769 / 1197
+Gaps: 25.92 %
+Invariant sites: 20.52 %
+
+Partition 775: L34969.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1724 / 979
+Gaps: 17.13 %
+Invariant sites: 21.64 %
+
+Partition 776: L34981.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1819 / 1329
+Gaps: 19.89 %
+Invariant sites: 14.13 %
+
+Partition 777: L35035.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2517 / 1089
+Gaps: 15.05 %
+Invariant sites: 15.38 %
+
+Partition 778: L35037.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2227 / 1505
+Gaps: 26.34 %
+Invariant sites: 7.45 %
+
+Partition 779: L35093.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1778 / 1182
+Gaps: 16.00 %
+Invariant sites: 15.19 %
+
+Partition 780: L35098.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1788 / 1171
+Gaps: 18.54 %
+Invariant sites: 13.70 %
+
+Partition 781: L35099.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1711 / 1190
+Gaps: 17.11 %
+Invariant sites: 8.36 %
+
+Partition 782: L35117.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 917
+Gaps: 21.74 %
+Invariant sites: 21.87 %
+
+Partition 783: L35118.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1559 / 834
+Gaps: 19.94 %
+Invariant sites: 18.47 %
+
+Partition 784: L35121.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1812 / 999
+Gaps: 20.38 %
+Invariant sites: 17.83 %
+
+Partition 785: L35124.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1783 / 1103
+Gaps: 24.32 %
+Invariant sites: 16.71 %
+
+Partition 786: L35143.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2935 / 1543
+Gaps: 12.46 %
+Invariant sites: 7.12 %
+
+Partition 787: L35170.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1944 / 1277
+Gaps: 20.16 %
+Invariant sites: 14.40 %
+
+Partition 788: L35174.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1833 / 1358
+Gaps: 21.26 %
+Invariant sites: 10.47 %
+
+Partition 789: L35175.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1752 / 1113
+Gaps: 21.95 %
+Invariant sites: 21.06 %
+
+Partition 790: L35179.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1761 / 917
+Gaps: 18.12 %
+Invariant sites: 16.01 %
+
+Partition 791: L35183.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1800 / 974
+Gaps: 13.98 %
+Invariant sites: 13.33 %
+
+Partition 792: L35209.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1755 / 1141
+Gaps: 24.23 %
+Invariant sites: 14.19 %
+
+Partition 793: L35222.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1644 / 844
+Gaps: 18.13 %
+Invariant sites: 18.98 %
+
+Partition 794: L35358.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1791 / 1313
+Gaps: 23.90 %
+Invariant sites: 13.12 %
+
+Partition 795: L35362.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1847 / 1387
+Gaps: 22.73 %
+Invariant sites: 10.34 %
+
+Partition 796: L35382.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1237
+Gaps: 17.59 %
+Invariant sites: 12.38 %
+
+Partition 797: L3545.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1724 / 1245
+Gaps: 15.14 %
+Invariant sites: 9.92 %
+
+Partition 798: L3548.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1700 / 1018
+Gaps: 24.29 %
+Invariant sites: 18.29 %
+
+Partition 799: L35521.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1995 / 1413
+Gaps: 22.97 %
+Invariant sites: 9.17 %
+
+Partition 800: L35533.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1752 / 1346
+Gaps: 27.53 %
+Invariant sites: 14.44 %
+
+Partition 801: L35544.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1755 / 1203
+Gaps: 17.95 %
+Invariant sites: 10.77 %
+
+Partition 802: L35589.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1601 / 1004
+Gaps: 16.39 %
+Invariant sites: 17.80 %
+
+Partition 803: L35702.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1747 / 1001
+Gaps: 22.12 %
+Invariant sites: 18.89 %
+
+Partition 804: L35705.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1620 / 1209
+Gaps: 34.66 %
+Invariant sites: 16.85 %
+
+Partition 805: L35747.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1864 / 1060
+Gaps: 21.33 %
+Invariant sites: 11.53 %
+
+Partition 806: L35789.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1908 / 1115
+Gaps: 15.64 %
+Invariant sites: 8.96 %
+
+Partition 807: L35801.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1891 / 1035
+Gaps: 18.84 %
+Invariant sites: 18.72 %
+
+Partition 808: L35812.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1701 / 955
+Gaps: 23.34 %
+Invariant sites: 15.23 %
+
+Partition 809: L35922.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1579 / 1340
+Gaps: 24.95 %
+Invariant sites: 4.43 %
+
+Partition 810: L35951.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1604 / 1250
+Gaps: 21.38 %
+Invariant sites: 9.66 %
+
+Partition 811: L36011.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1704 / 1152
+Gaps: 17.92 %
+Invariant sites: 13.91 %
+
+Partition 812: L36014.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1748 / 1063
+Gaps: 16.78 %
+Invariant sites: 16.82 %
+
+Partition 813: L36086.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1892 / 1156
+Gaps: 17.19 %
+Invariant sites: 12.79 %
+
+Partition 814: L36221.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1667 / 1108
+Gaps: 18.27 %
+Invariant sites: 9.42 %
+
+Partition 815: L36225.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1759 / 1077
+Gaps: 22.30 %
+Invariant sites: 19.61 %
+
+Partition 816: L36226.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1751 / 1174
+Gaps: 19.20 %
+Invariant sites: 11.88 %
+
+Partition 817: L36420.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2179 / 1369
+Gaps: 13.93 %
+Invariant sites: 7.07 %
+
+Partition 818: L36534.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1169
+Gaps: 16.50 %
+Invariant sites: 12.06 %
+
+Partition 819: L36570.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1840 / 1415
+Gaps: 24.80 %
+Invariant sites: 13.48 %
+
+Partition 820: L36571.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2402 / 1479
+Gaps: 21.22 %
+Invariant sites: 16.53 %
+
+Partition 821: L36572.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1818 / 1346
+Gaps: 20.12 %
+Invariant sites: 12.49 %
+
+Partition 822: L36573.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1850 / 1222
+Gaps: 19.32 %
+Invariant sites: 17.03 %
+
+Partition 823: L36583.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 1137
+Gaps: 21.87 %
+Invariant sites: 17.63 %
+
+Partition 824: L36588.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1701 / 1024
+Gaps: 17.56 %
+Invariant sites: 17.46 %
+
+Partition 825: L36646.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1889 / 1054
+Gaps: 26.74 %
+Invariant sites: 11.49 %
+
+Partition 826: L36647.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1894 / 1029
+Gaps: 22.27 %
+Invariant sites: 16.95 %
+
+Partition 827: L36685.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1912 / 1099
+Gaps: 22.09 %
+Invariant sites: 22.12 %
+
+Partition 828: L36692.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1631 / 1190
+Gaps: 19.37 %
+Invariant sites: 20.29 %
+
+Partition 829: L36728.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1739 / 889
+Gaps: 19.14 %
+Invariant sites: 21.10 %
+
+Partition 830: L36794.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 1221
+Gaps: 24.66 %
+Invariant sites: 11.80 %
+
+Partition 831: L36864.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1145
+Gaps: 18.14 %
+Invariant sites: 18.32 %
+
+Partition 832: L36901.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1748 / 1514
+Gaps: 28.88 %
+Invariant sites: 6.41 %
+
+Partition 833: L3693.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1702 / 801
+Gaps: 25.50 %
+Invariant sites: 16.92 %
+
+Partition 834: L37010.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 1075
+Gaps: 14.72 %
+Invariant sites: 12.13 %
+
+Partition 835: L37029.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2172 / 1225
+Gaps: 18.80 %
+Invariant sites: 14.32 %
+
+Partition 836: L3711.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1733 / 1448
+Gaps: 22.82 %
+Invariant sites: 9.58 %
+
+Partition 837: L3725.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1851 / 1423
+Gaps: 23.45 %
+Invariant sites: 9.18 %
+
+Partition 838: L37327.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 1037
+Gaps: 25.53 %
+Invariant sites: 14.12 %
+
+Partition 839: L37366.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1667 / 933
+Gaps: 18.58 %
+Invariant sites: 18.48 %
+
+Partition 840: L37492.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1668 / 1003
+Gaps: 26.20 %
+Invariant sites: 22.24 %
+
+Partition 841: L37531.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1712 / 886
+Gaps: 15.72 %
+Invariant sites: 13.32 %
+
+Partition 842: L37573.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1680 / 906
+Gaps: 15.02 %
+Invariant sites: 16.37 %
+
+Partition 843: L3758.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1781 / 1021
+Gaps: 21.27 %
+Invariant sites: 18.70 %
+
+Partition 844: L37594.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1757 / 876
+Gaps: 20.45 %
+Invariant sites: 20.60 %
+
+Partition 845: L37595.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1398 / 914
+Gaps: 22.95 %
+Invariant sites: 17.88 %
+
+Partition 846: L37672.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1752 / 1230
+Gaps: 19.68 %
+Invariant sites: 13.36 %
+
+Partition 847: L37676.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2204 / 1597
+Gaps: 27.16 %
+Invariant sites: 9.94 %
+
+Partition 848: L37693.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1911 / 1230
+Gaps: 22.08 %
+Invariant sites: 14.81 %
+
+Partition 849: L37711.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1841 / 1599
+Gaps: 36.27 %
+Invariant sites: 10.70 %
+
+Partition 850: L37768.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1661 / 1056
+Gaps: 15.95 %
+Invariant sites: 11.26 %
+
+Partition 851: L3776.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1785 / 1287
+Gaps: 18.98 %
+Invariant sites: 15.29 %
+
+Partition 852: L37779.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1879 / 1242
+Gaps: 19.44 %
+Invariant sites: 16.87 %
+
+Partition 853: L3778.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2247 / 1305
+Gaps: 14.58 %
+Invariant sites: 17.58 %
+
+Partition 854: L37876.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1747 / 1444
+Gaps: 28.38 %
+Invariant sites: 7.84 %
+
+Partition 855: L37895.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1658 / 857
+Gaps: 16.52 %
+Invariant sites: 20.63 %
+
+Partition 856: L37915.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1632 / 989
+Gaps: 29.58 %
+Invariant sites: 21.08 %
+
+Partition 857: L37920.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1681 / 1162
+Gaps: 28.22 %
+Invariant sites: 19.39 %
+
+Partition 858: L37922.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2032 / 1339
+Gaps: 25.14 %
+Invariant sites: 16.04 %
+
+Partition 859: L37999.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1634 / 1127
+Gaps: 23.34 %
+Invariant sites: 20.44 %
+
+Partition 860: L38011.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1687 / 1004
+Gaps: 20.51 %
+Invariant sites: 16.18 %
+
+Partition 861: L38012.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1805 / 1316
+Gaps: 27.91 %
+Invariant sites: 13.07 %
+
+Partition 862: L38089.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1893 / 831
+Gaps: 12.83 %
+Invariant sites: 17.17 %
+
+Partition 863: L38110.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1787 / 1368
+Gaps: 21.55 %
+Invariant sites: 10.02 %
+
+Partition 864: L38181.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1828 / 1334
+Gaps: 20.86 %
+Invariant sites: 10.39 %
+
+Partition 865: L38187.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1829 / 961
+Gaps: 16.81 %
+Invariant sites: 12.36 %
+
+Partition 866: L38188.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1669 / 824
+Gaps: 15.14 %
+Invariant sites: 10.90 %
+
+Partition 867: L38217.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1779 / 1078
+Gaps: 18.83 %
+Invariant sites: 19.34 %
+
+Partition 868: L38218.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1757 / 984
+Gaps: 16.77 %
+Invariant sites: 19.75 %
+
+Partition 869: L38224.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1667 / 1122
+Gaps: 18.26 %
+Invariant sites: 13.08 %
+
+Partition 870: L3823.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1884 / 1183
+Gaps: 19.46 %
+Invariant sites: 19.96 %
+
+Partition 871: L38244.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1702 / 1060
+Gaps: 21.13 %
+Invariant sites: 25.32 %
+
+Partition 872: L3825.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2247 / 1008
+Gaps: 16.10 %
+Invariant sites: 13.71 %
+
+Partition 873: L38346.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1690 / 1090
+Gaps: 22.15 %
+Invariant sites: 22.25 %
+
+Partition 874: L3849.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 1255
+Gaps: 20.10 %
+Invariant sites: 14.79 %
+
+Partition 875: L38507.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 1404
+Gaps: 34.46 %
+Invariant sites: 6.13 %
+
+Partition 876: L3850.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1797 / 1208
+Gaps: 18.39 %
+Invariant sites: 17.25 %
+
+Partition 877: L38533.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1803 / 1218
+Gaps: 20.38 %
+Invariant sites: 15.14 %
+
+Partition 878: L38560.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1532 / 1021
+Gaps: 19.38 %
+Invariant sites: 16.32 %
+
+Partition 879: L38563.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1851 / 1175
+Gaps: 23.54 %
+Invariant sites: 16.48 %
+
+Partition 880: L38564.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1741 / 1094
+Gaps: 28.66 %
+Invariant sites: 18.44 %
+
+Partition 881: L38612.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1687 / 1136
+Gaps: 18.83 %
+Invariant sites: 15.00 %
+
+Partition 882: L38624.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 1047
+Gaps: 18.65 %
+Invariant sites: 17.68 %
+
+Partition 883: L3862.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2381 / 1506
+Gaps: 20.43 %
+Invariant sites: 14.36 %
+
+Partition 884: L38638.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1611 / 1207
+Gaps: 24.55 %
+Invariant sites: 14.28 %
+
+Partition 885: L3863.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1762 / 880
+Gaps: 18.02 %
+Invariant sites: 19.01 %
+
+Partition 886: L38643.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1810 / 1210
+Gaps: 19.78 %
+Invariant sites: 13.48 %
+
+Partition 887: L3868.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1753 / 1095
+Gaps: 15.56 %
+Invariant sites: 10.90 %
+
+Partition 888: L38690.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1673 / 1163
+Gaps: 23.67 %
+Invariant sites: 12.25 %
+
+Partition 889: L38800.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1808 / 1246
+Gaps: 26.55 %
+Invariant sites: 13.88 %
+
+Partition 890: L38802.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1614 / 1046
+Gaps: 16.46 %
+Invariant sites: 11.65 %
+
+Partition 891: L38810.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1678 / 1035
+Gaps: 16.02 %
+Invariant sites: 15.73 %
+
+Partition 892: L38811.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2192 / 1017
+Gaps: 12.06 %
+Invariant sites: 14.64 %
+
+Partition 893: L38858.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1860 / 1237
+Gaps: 21.20 %
+Invariant sites: 16.40 %
+
+Partition 894: L38859.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2303 / 1452
+Gaps: 20.94 %
+Invariant sites: 9.25 %
+
+Partition 895: L38877.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1676 / 1338
+Gaps: 22.52 %
+Invariant sites: 13.37 %
+
+Partition 896: L38885.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1723 / 783
+Gaps: 19.36 %
+Invariant sites: 18.40 %
+
+Partition 897: L3896.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1601 / 947
+Gaps: 14.88 %
+Invariant sites: 16.11 %
+
+Partition 898: L3899.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1937 / 1212
+Gaps: 15.78 %
+Invariant sites: 11.56 %
+
+Partition 899: L39055.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1845 / 749
+Gaps: 17.96 %
+Invariant sites: 21.63 %
+
+Partition 900: L39056.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1851 / 730
+Gaps: 15.57 %
+Invariant sites: 18.91 %
+
+Partition 901: L39058.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1743 / 810
+Gaps: 14.62 %
+Invariant sites: 19.45 %
+
+Partition 902: L3910.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2162 / 1251
+Gaps: 15.11 %
+Invariant sites: 12.58 %
+
+Partition 903: L39111.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2517 / 1071
+Gaps: 11.09 %
+Invariant sites: 10.85 %
+
+Partition 904: L39112.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1827 / 1017
+Gaps: 16.23 %
+Invariant sites: 15.71 %
+
+Partition 905: L39114.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1865 / 1188
+Gaps: 22.23 %
+Invariant sites: 17.80 %
+
+Partition 906: L39119.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1780 / 968
+Gaps: 15.79 %
+Invariant sites: 16.29 %
+
+Partition 907: L39120.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 3318 / 1719
+Gaps: 21.03 %
+Invariant sites: 12.06 %
+
+Partition 908: L39121.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2194 / 1048
+Gaps: 18.02 %
+Invariant sites: 15.54 %
+
+Partition 909: L39122.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1868 / 1140
+Gaps: 18.79 %
+Invariant sites: 11.62 %
+
+Partition 910: L39205.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1803 / 1359
+Gaps: 20.13 %
+Invariant sites: 10.43 %
+
+Partition 911: L39224.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1740 / 946
+Gaps: 22.59 %
+Invariant sites: 18.39 %
+
+Partition 912: L39225.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 898
+Gaps: 14.23 %
+Invariant sites: 15.71 %
+
+Partition 913: L39243.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1675 / 1182
+Gaps: 21.09 %
+Invariant sites: 17.55 %
+
+Partition 914: L39246.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1851 / 1452
+Gaps: 22.24 %
+Invariant sites: 14.59 %
+
+Partition 915: L39247.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1703 / 1454
+Gaps: 31.34 %
+Invariant sites: 8.93 %
+
+Partition 916: L39267.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1693 / 980
+Gaps: 12.76 %
+Invariant sites: 7.62 %
+
+Partition 917: L39323.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1223
+Gaps: 23.84 %
+Invariant sites: 14.90 %
+
+Partition 918: L39378.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1638 / 1276
+Gaps: 21.58 %
+Invariant sites: 16.79 %
+
+Partition 919: L39400.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1457 / 819
+Gaps: 24.24 %
+Invariant sites: 18.53 %
+
+Partition 920: L39446.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1756 / 969
+Gaps: 15.42 %
+Invariant sites: 21.58 %
+
+Partition 921: L39449.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1656 / 938
+Gaps: 19.06 %
+Invariant sites: 17.15 %
+
+Partition 922: L39457.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1794 / 811
+Gaps: 20.35 %
+Invariant sites: 16.44 %
+
+Partition 923: L39466.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1685 / 1191
+Gaps: 19.52 %
+Invariant sites: 14.48 %
+
+Partition 924: L39469.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1787 / 1048
+Gaps: 14.39 %
+Invariant sites: 9.63 %
+
+Partition 925: L39590.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1771 / 1231
+Gaps: 20.65 %
+Invariant sites: 19.31 %
+
+Partition 926: L39635.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1053
+Gaps: 16.11 %
+Invariant sites: 16.35 %
+
+Partition 927: L39646.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1932 / 1042
+Gaps: 17.29 %
+Invariant sites: 19.10 %
+
+Partition 928: L39654.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 717
+Gaps: 16.92 %
+Invariant sites: 19.95 %
+
+Partition 929: L39741.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1699 / 929
+Gaps: 21.10 %
+Invariant sites: 23.07 %
+
+Partition 930: L39759.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 1020
+Gaps: 16.32 %
+Invariant sites: 13.53 %
+
+Partition 931: L39774.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1836 / 995
+Gaps: 16.42 %
+Invariant sites: 17.59 %
+
+Partition 932: L39827.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1717 / 1099
+Gaps: 15.96 %
+Invariant sites: 12.87 %
+
+Partition 933: L39860.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1667 / 1291
+Gaps: 22.78 %
+Invariant sites: 9.96 %
+
+Partition 934: L39870.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1922 / 1097
+Gaps: 17.42 %
+Invariant sites: 16.02 %
+
+Partition 935: L398.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2306 / 1050
+Gaps: 12.63 %
+Invariant sites: 14.35 %
+
+Partition 936: L39948.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1701 / 1007
+Gaps: 16.21 %
+Invariant sites: 15.81 %
+
+Partition 937: L39994.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1755 / 1385
+Gaps: 20.98 %
+Invariant sites: 5.53 %
+
+Partition 938: L40018.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1749 / 1092
+Gaps: 16.80 %
+Invariant sites: 17.10 %
+
+Partition 939: L40034.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1619 / 1085
+Gaps: 17.88 %
+Invariant sites: 15.07 %
+
+Partition 940: L40038.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2722 / 1304
+Gaps: 10.73 %
+Invariant sites: 8.08 %
+
+Partition 941: L40042.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1974 / 1082
+Gaps: 16.06 %
+Invariant sites: 16.01 %
+
+Partition 942: L4138.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1707 / 969
+Gaps: 18.34 %
+Invariant sites: 18.86 %
+
+Partition 943: L4143.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1712 / 1224
+Gaps: 19.05 %
+Invariant sites: 13.55 %
+
+Partition 944: L4153.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1790 / 879
+Gaps: 16.31 %
+Invariant sites: 17.43 %
+
+Partition 945: L4173.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1792 / 1229
+Gaps: 21.63 %
+Invariant sites: 13.45 %
+
+Partition 946: L4258.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1652 / 1122
+Gaps: 18.99 %
+Invariant sites: 14.10 %
+
+Partition 947: L4300.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1837 / 1414
+Gaps: 18.74 %
+Invariant sites: 10.29 %
+
+Partition 948: L4351.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 1288
+Gaps: 19.43 %
+Invariant sites: 5.61 %
+
+Partition 949: L4381.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1728 / 1170
+Gaps: 22.61 %
+Invariant sites: 17.30 %
+
+Partition 950: L4441.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1136
+Gaps: 18.68 %
+Invariant sites: 13.77 %
+
+Partition 951: L449.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1718 / 1243
+Gaps: 19.95 %
+Invariant sites: 13.27 %
+
+Partition 952: L451.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2729 / 895
+Gaps: 9.31 %
+Invariant sites: 10.37 %
+
+Partition 953: L4531.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1842 / 895
+Gaps: 31.22 %
+Invariant sites: 19.60 %
+
+Partition 954: L4629.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1813 / 1661
+Gaps: 29.88 %
+Invariant sites: 3.53 %
+
+Partition 955: L4660.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1639 / 1016
+Gaps: 18.71 %
+Invariant sites: 20.38 %
+
+Partition 956: L4673.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1649 / 1237
+Gaps: 20.94 %
+Invariant sites: 8.25 %
+
+Partition 957: L4731.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2023 / 1096
+Gaps: 17.97 %
+Invariant sites: 12.80 %
+
+Partition 958: L4744.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1687 / 1335
+Gaps: 23.94 %
+Invariant sites: 12.86 %
+
+Partition 959: L4809.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1658 / 1256
+Gaps: 19.28 %
+Invariant sites: 8.02 %
+
+Partition 960: L4845.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 1140
+Gaps: 20.83 %
+Invariant sites: 17.20 %
+
+Partition 961: L4968.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2007 / 1190
+Gaps: 15.58 %
+Invariant sites: 10.16 %
+
+Partition 962: L4986.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1422
+Gaps: 27.04 %
+Invariant sites: 13.16 %
+
+Partition 963: L4999.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1623 / 1274
+Gaps: 16.97 %
+Invariant sites: 10.91 %
+
+Partition 964: L5001.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1868 / 1387
+Gaps: 29.75 %
+Invariant sites: 9.15 %
+
+Partition 965: L5125.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1795 / 1155
+Gaps: 19.51 %
+Invariant sites: 19.72 %
+
+Partition 966: L5153.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2230 / 1200
+Gaps: 15.81 %
+Invariant sites: 16.19 %
+
+Partition 967: L5162.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1612 / 899
+Gaps: 20.23 %
+Invariant sites: 20.84 %
+
+Partition 968: L5177.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1726 / 1333
+Gaps: 21.35 %
+Invariant sites: 12.34 %
+
+Partition 969: L5181.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1748 / 1306
+Gaps: 21.97 %
+Invariant sites: 15.96 %
+
+Partition 970: L5257.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1878 / 1278
+Gaps: 15.86 %
+Invariant sites: 8.63 %
+
+Partition 971: L5262.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1765 / 1289
+Gaps: 17.39 %
+Invariant sites: 15.24 %
+
+Partition 972: L5283.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1836 / 1458
+Gaps: 22.32 %
+Invariant sites: 14.32 %
+
+Partition 973: L5311.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1851 / 1093
+Gaps: 16.75 %
+Invariant sites: 14.80 %
+
+Partition 974: L5400.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1750 / 1115
+Gaps: 23.16 %
+Invariant sites: 19.71 %
+
+Partition 975: L5493.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1637 / 1182
+Gaps: 23.13 %
+Invariant sites: 11.42 %
+
+Partition 976: L5494.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1826 / 1443
+Gaps: 21.75 %
+Invariant sites: 14.24 %
+
+Partition 977: L5495.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 1245
+Gaps: 24.68 %
+Invariant sites: 14.99 %
+
+Partition 978: L5532.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1866 / 1365
+Gaps: 31.12 %
+Invariant sites: 10.88 %
+
+Partition 979: L5576.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1584 / 722
+Gaps: 15.18 %
+Invariant sites: 17.42 %
+
+Partition 980: L5579.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1705 / 1186
+Gaps: 26.98 %
+Invariant sites: 13.08 %
+
+Partition 981: L5636.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2072 / 1734
+Gaps: 29.42 %
+Invariant sites: 9.60 %
+
+Partition 982: L5731.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2416 / 1163
+Gaps: 11.65 %
+Invariant sites: 9.40 %
+
+Partition 983: L5733.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1942 / 1102
+Gaps: 20.23 %
+Invariant sites: 11.69 %
+
+Partition 984: L5828.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1553 / 1083
+Gaps: 23.10 %
+Invariant sites: 10.11 %
+
+Partition 985: L5850.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1772 / 1097
+Gaps: 20.90 %
+Invariant sites: 20.49 %
+
+Partition 986: L5872.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 1315
+Gaps: 20.13 %
+Invariant sites: 15.48 %
+
+Partition 987: L5881.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1879 / 1117
+Gaps: 21.24 %
+Invariant sites: 15.91 %
+
+Partition 988: L5986.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 1029
+Gaps: 21.94 %
+Invariant sites: 13.29 %
+
+Partition 989: L5988.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1803 / 929
+Gaps: 19.27 %
+Invariant sites: 18.14 %
+
+Partition 990: L5995.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1575 / 789
+Gaps: 18.82 %
+Invariant sites: 18.86 %
+
+Partition 991: L6008.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1677 / 1152
+Gaps: 21.12 %
+Invariant sites: 13.24 %
+
+Partition 992: L6028.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1736 / 1020
+Gaps: 19.64 %
+Invariant sites: 20.05 %
+
+Partition 993: L6032.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1697 / 1007
+Gaps: 19.82 %
+Invariant sites: 18.62 %
+
+Partition 994: L6079.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1738 / 1384
+Gaps: 24.74 %
+Invariant sites: 15.19 %
+
+Partition 995: L6177.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1645 / 1286
+Gaps: 25.33 %
+Invariant sites: 12.34 %
+
+Partition 996: L6187.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 989
+Gaps: 23.89 %
+Invariant sites: 20.99 %
+
+Partition 997: L6189.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1725 / 1396
+Gaps: 24.34 %
+Invariant sites: 7.48 %
+
+Partition 998: L6238.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1634 / 1118
+Gaps: 18.00 %
+Invariant sites: 11.69 %
+
+Partition 999: L6252.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1584 / 1204
+Gaps: 22.72 %
+Invariant sites: 12.12 %
+
+Partition 1000: L6299.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1820 / 937
+Gaps: 16.69 %
+Invariant sites: 16.87 %
+
+Partition 1001: L6301.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1872 / 1041
+Gaps: 15.43 %
+Invariant sites: 18.27 %
+
+Partition 1002: L630.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1764 / 1214
+Gaps: 18.78 %
+Invariant sites: 11.45 %
+
+Partition 1003: L6332.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1797 / 1043
+Gaps: 18.23 %
+Invariant sites: 13.58 %
+
+Partition 1004: L6349.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2010 / 1041
+Gaps: 13.38 %
+Invariant sites: 15.57 %
+
+Partition 1005: L6352.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2560 / 1164
+Gaps: 12.28 %
+Invariant sites: 13.71 %
+
+Partition 1006: L6355.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1842 / 1462
+Gaps: 19.49 %
+Invariant sites: 8.41 %
+
+Partition 1007: L6362.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1859 / 1311
+Gaps: 18.21 %
+Invariant sites: 7.15 %
+
+Partition 1008: L6385.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1899 / 1014
+Gaps: 15.49 %
+Invariant sites: 17.27 %
+
+Partition 1009: L6414.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1432 / 1225
+Gaps: 30.42 %
+Invariant sites: 5.17 %
+
+Partition 1010: L6417.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1652 / 1103
+Gaps: 16.78 %
+Invariant sites: 16.10 %
+
+Partition 1011: L6534.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1734 / 1335
+Gaps: 19.00 %
+Invariant sites: 9.05 %
+
+Partition 1012: L6558.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1734 / 1051
+Gaps: 20.32 %
+Invariant sites: 15.40 %
+
+Partition 1013: L6559.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1870 / 1164
+Gaps: 17.97 %
+Invariant sites: 16.20 %
+
+Partition 1014: L6560.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1725 / 939
+Gaps: 18.37 %
+Invariant sites: 16.17 %
+
+Partition 1015: L6562.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1668 / 1117
+Gaps: 16.99 %
+Invariant sites: 18.35 %
+
+Partition 1016: L6569.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2158 / 1356
+Gaps: 25.24 %
+Invariant sites: 14.64 %
+
+Partition 1017: L6604.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1671 / 1019
+Gaps: 17.85 %
+Invariant sites: 17.95 %
+
+Partition 1018: L6673.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1764 / 887
+Gaps: 18.03 %
+Invariant sites: 19.33 %
+
+Partition 1019: L6700.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1580 / 1227
+Gaps: 23.80 %
+Invariant sites: 15.38 %
+
+Partition 1020: L6724.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1608 / 1243
+Gaps: 29.79 %
+Invariant sites: 14.55 %
+
+Partition 1021: L6725.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1701 / 1377
+Gaps: 27.10 %
+Invariant sites: 14.70 %
+
+Partition 1022: L6853.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1721 / 1207
+Gaps: 17.74 %
+Invariant sites: 14.06 %
+
+Partition 1023: L6887.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2402 / 1486
+Gaps: 16.70 %
+Invariant sites: 8.66 %
+
+Partition 1024: L6981.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1565 / 1159
+Gaps: 23.06 %
+Invariant sites: 17.44 %
+
+Partition 1025: L6982.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1730 / 1117
+Gaps: 19.88 %
+Invariant sites: 21.79 %
+
+Partition 1026: L6983.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1971 / 1157
+Gaps: 15.93 %
+Invariant sites: 13.50 %
+
+Partition 1027: L7084.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1644 / 892
+Gaps: 15.59 %
+Invariant sites: 16.73 %
+
+Partition 1028: L715.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1595 / 1019
+Gaps: 20.25 %
+Invariant sites: 18.06 %
+
+Partition 1029: L7208.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1739 / 885
+Gaps: 15.46 %
+Invariant sites: 19.72 %
+
+Partition 1030: L7212.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1754 / 1052
+Gaps: 19.30 %
+Invariant sites: 19.78 %
+
+Partition 1031: L7232.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1829 / 1111
+Gaps: 33.71 %
+Invariant sites: 13.67 %
+
+Partition 1032: L7281.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1666 / 1200
+Gaps: 33.10 %
+Invariant sites: 19.69 %
+
+Partition 1033: L7289.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2104 / 1122
+Gaps: 14.86 %
+Invariant sites: 16.21 %
+
+Partition 1034: L729.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1875 / 1302
+Gaps: 26.55 %
+Invariant sites: 14.99 %
+
+Partition 1035: L730.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1611 / 1341
+Gaps: 25.80 %
+Invariant sites: 11.67 %
+
+Partition 1036: L7310.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1715 / 1264
+Gaps: 32.44 %
+Invariant sites: 16.44 %
+
+Partition 1037: L7319.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1662 / 1120
+Gaps: 18.93 %
+Invariant sites: 11.55 %
+
+Partition 1038: L7378.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1814 / 1171
+Gaps: 21.92 %
+Invariant sites: 11.14 %
+
+Partition 1039: L7381.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1838 / 1317
+Gaps: 21.50 %
+Invariant sites: 9.85 %
+
+Partition 1040: L7443.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1686 / 949
+Gaps: 15.88 %
+Invariant sites: 10.38 %
+
+Partition 1041: L7444.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1874 / 1518
+Gaps: 31.59 %
+Invariant sites: 11.21 %
+
+Partition 1042: L7492.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1648 / 1236
+Gaps: 21.84 %
+Invariant sites: 11.95 %
+
+Partition 1043: L7500.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1727 / 1227
+Gaps: 20.97 %
+Invariant sites: 10.54 %
+
+Partition 1044: L7521.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1706 / 932
+Gaps: 15.37 %
+Invariant sites: 10.73 %
+
+Partition 1045: L7523.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1646 / 1127
+Gaps: 18.24 %
+Invariant sites: 17.31 %
+
+Partition 1046: L7550.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1618 / 942
+Gaps: 18.47 %
+Invariant sites: 17.12 %
+
+Partition 1047: L7574.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1848 / 1015
+Gaps: 18.58 %
+Invariant sites: 20.67 %
+
+Partition 1048: L7575.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2278 / 1077
+Gaps: 17.30 %
+Invariant sites: 18.09 %
+
+Partition 1049: L7648.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1743 / 1259
+Gaps: 19.20 %
+Invariant sites: 11.42 %
+
+Partition 1050: L7712.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2613 / 1235
+Gaps: 11.70 %
+Invariant sites: 8.11 %
+
+Partition 1051: L7739.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1899 / 1086
+Gaps: 12.70 %
+Invariant sites: 11.32 %
+
+Partition 1052: L7749.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1761 / 912
+Gaps: 15.42 %
+Invariant sites: 18.29 %
+
+Partition 1053: L7773.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1728 / 1135
+Gaps: 19.84 %
+Invariant sites: 12.56 %
+
+Partition 1054: L7776.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2041 / 1373
+Gaps: 16.45 %
+Invariant sites: 8.87 %
+
+Partition 1055: L7777.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1862 / 1477
+Gaps: 30.63 %
+Invariant sites: 10.42 %
+
+Partition 1056: L7785.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1965 / 876
+Gaps: 20.33 %
+Invariant sites: 16.18 %
+
+Partition 1057: L7817.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1685 / 1404
+Gaps: 28.98 %
+Invariant sites: 13.12 %
+
+Partition 1058: L7847.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1687 / 985
+Gaps: 17.90 %
+Invariant sites: 21.46 %
+
+Partition 1059: L790.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1716 / 1217
+Gaps: 20.65 %
+Invariant sites: 11.36 %
+
+Partition 1060: L7921.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1628 / 1172
+Gaps: 26.79 %
+Invariant sites: 7.25 %
+
+Partition 1061: L7977.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2024 / 1379
+Gaps: 16.41 %
+Invariant sites: 8.79 %
+
+Partition 1062: L8037.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2335 / 1094
+Gaps: 13.45 %
+Invariant sites: 13.32 %
+
+Partition 1063: L805.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1789 / 1188
+Gaps: 20.43 %
+Invariant sites: 20.85 %
+
+Partition 1064: L8067.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1645 / 1189
+Gaps: 21.92 %
+Invariant sites: 13.56 %
+
+Partition 1065: L8083.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1768 / 1052
+Gaps: 21.05 %
+Invariant sites: 15.84 %
+
+Partition 1066: L8097.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1600 / 1342
+Gaps: 22.54 %
+Invariant sites: 10.31 %
+
+Partition 1067: L8109.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1799 / 1118
+Gaps: 20.05 %
+Invariant sites: 15.12 %
+
+Partition 1068: L8110.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1825 / 1053
+Gaps: 19.21 %
+Invariant sites: 18.25 %
+
+Partition 1069: L8113.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1572 / 1255
+Gaps: 24.15 %
+Invariant sites: 4.33 %
+
+Partition 1070: L8121.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1785 / 1060
+Gaps: 20.20 %
+Invariant sites: 20.22 %
+
+Partition 1071: L8194.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1692 / 1051
+Gaps: 18.14 %
+Invariant sites: 14.78 %
+
+Partition 1072: L8208.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1844 / 1095
+Gaps: 18.89 %
+Invariant sites: 14.21 %
+
+Partition 1073: L8217.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2988 / 1558
+Gaps: 16.58 %
+Invariant sites: 9.87 %
+
+Partition 1074: L825.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1627 / 1121
+Gaps: 21.32 %
+Invariant sites: 19.11 %
+
+Partition 1075: L828.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1656 / 1193
+Gaps: 20.93 %
+Invariant sites: 15.22 %
+
+Partition 1076: L8351.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1696 / 791
+Gaps: 30.41 %
+Invariant sites: 15.51 %
+
+Partition 1077: L8420.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1793 / 851
+Gaps: 14.40 %
+Invariant sites: 16.45 %
+
+Partition 1078: L8512.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1691 / 1105
+Gaps: 18.96 %
+Invariant sites: 9.58 %
+
+Partition 1079: L8514.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1751 / 823
+Gaps: 16.16 %
+Invariant sites: 16.79 %
+
+Partition 1080: L8516.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1810 / 848
+Gaps: 18.15 %
+Invariant sites: 16.24 %
+
+Partition 1081: L8556.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1712 / 1090
+Gaps: 16.21 %
+Invariant sites: 13.26 %
+
+Partition 1082: L8557.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1757 / 1278
+Gaps: 21.55 %
+Invariant sites: 12.35 %
+
+Partition 1083: L8561.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1764 / 1246
+Gaps: 19.67 %
+Invariant sites: 10.15 %
+
+Partition 1084: L8724.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1751 / 1313
+Gaps: 20.76 %
+Invariant sites: 12.85 %
+
+Partition 1085: L8785.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1678 / 997
+Gaps: 21.57 %
+Invariant sites: 16.39 %
+
+Partition 1086: L87.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1648 / 880
+Gaps: 14.42 %
+Invariant sites: 10.07 %
+
+Partition 1087: L8834.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1804 / 915
+Gaps: 17.04 %
+Invariant sites: 18.24 %
+
+Partition 1088: L8870.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1695 / 1162
+Gaps: 25.99 %
+Invariant sites: 14.22 %
+
+Partition 1089: L8876.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1906 / 1089
+Gaps: 21.55 %
+Invariant sites: 11.70 %
+
+Partition 1090: L8908.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1684 / 1169
+Gaps: 22.29 %
+Invariant sites: 13.84 %
+
+Partition 1091: L8920.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1784 / 1375
+Gaps: 21.12 %
+Invariant sites: 12.72 %
+
+Partition 1092: L8975.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1752 / 1107
+Gaps: 18.50 %
+Invariant sites: 20.26 %
+
+Partition 1093: L9047.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1856 / 1096
+Gaps: 15.61 %
+Invariant sites: 9.91 %
+
+Partition 1094: L9060.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1929 / 1344
+Gaps: 18.13 %
+Invariant sites: 7.00 %
+
+Partition 1095: L9070.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1766 / 1040
+Gaps: 18.15 %
+Invariant sites: 15.69 %
+
+Partition 1096: L9072.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1774 / 810
+Gaps: 14.23 %
+Invariant sites: 19.73 %
+
+Partition 1097: L9075.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1709 / 862
+Gaps: 16.29 %
+Invariant sites: 18.67 %
+
+Partition 1098: L9091.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1813 / 1200
+Gaps: 20.45 %
+Invariant sites: 11.47 %
+
+Partition 1099: L9121.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1786 / 1087
+Gaps: 20.99 %
+Invariant sites: 9.91 %
+
+Partition 1100: L9220.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2075 / 1496
+Gaps: 22.18 %
+Invariant sites: 5.40 %
+
+Partition 1101: L9224.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1826 / 1468
+Gaps: 25.77 %
+Invariant sites: 12.05 %
+
+Partition 1102: L9281.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1678 / 1135
+Gaps: 20.65 %
+Invariant sites: 17.64 %
+
+Partition 1103: L9323.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1741 / 1361
+Gaps: 26.79 %
+Invariant sites: 12.69 %
+
+Partition 1104: L9342.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1875 / 1189
+Gaps: 15.81 %
+Invariant sites: 10.88 %
+
+Partition 1105: L936.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1774 / 1349
+Gaps: 25.74 %
+Invariant sites: 15.84 %
+
+Partition 1106: L937.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1775 / 1329
+Gaps: 28.38 %
+Invariant sites: 16.00 %
+
+Partition 1107: L944.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1684 / 1183
+Gaps: 17.67 %
+Invariant sites: 9.98 %
+
+Partition 1108: L9537.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2077 / 958
+Gaps: 14.65 %
+Invariant sites: 14.93 %
+
+Partition 1109: L9574.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1763 / 1400
+Gaps: 28.15 %
+Invariant sites: 11.23 %
+
+Partition 1110: L9715.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1795 / 1294
+Gaps: 33.14 %
+Invariant sites: 18.55 %
+
+Partition 1111: L9748.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1744 / 1019
+Gaps: 25.79 %
+Invariant sites: 14.68 %
+
+Partition 1112: L9760.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1872 / 1071
+Gaps: 21.06 %
+Invariant sites: 18.86 %
+
+Partition 1113: L9766.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2107 / 1447
+Gaps: 31.16 %
+Invariant sites: 13.15 %
+
+Partition 1114: L9767.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1807 / 1345
+Gaps: 28.54 %
+Invariant sites: 15.55 %
+
+Partition 1115: L9823.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1950 / 1116
+Gaps: 13.61 %
+Invariant sites: 10.92 %
+
+Partition 1116: L9886.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1609 / 907
+Gaps: 17.71 %
+Invariant sites: 14.29 %
+
+Partition 1117: L989.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1762 / 1281
+Gaps: 27.92 %
+Invariant sites: 16.91 %
+
+Partition 1118: L991.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1805 / 1155
+Gaps: 16.39 %
+Invariant sites: 18.89 %
+
+Partition 1119: L9950.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2018 / 978
+Gaps: 16.61 %
+Invariant sites: 16.20 %
+
+Partition 1120: L9951.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1791 / 909
+Gaps: 24.16 %
+Invariant sites: 18.15 %
+
+Partition 1121: L9955.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1757 / 1062
+Gaps: 21.83 %
+Invariant sites: 16.85 %
+
+Partition 1122: L9956.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1867 / 1237
+Gaps: 20.11 %
+Invariant sites: 17.73 %
+
+Partition 1123: L9965.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 1741 / 1196
+Gaps: 21.15 %
+Invariant sites: 18.27 %
+
+Partition 1124: L9982.aligned.phy
+Model: GTR+FO+G4m
+Alignment sites / patterns: 2580 / 1172
+Gaps: 12.38 %
+Invariant sites: 10.97 %
+
+
+NOTE: Binary MSA file created: besttree_5.raxml.rba
+
+[00:00:20] Generating 1 parsimony starting tree(s) with 154 taxa
+[00:00:42] Data distribution: max. partitions/sites/weight per thread: 48 / 52796 / 844736
+
+Starting ML tree search with 1 distinct starting trees
+
+[00:00:59 -29351514.947246] Initial branch length optimization
+[00:02:14 -23558787.181231] Model parameter optimization (eps = 10.000000)
+[00:43:29 -22623417.326460] AUTODETECT spr round 1 (radius: 5)
+[00:48:24 -22600262.760368] AUTODETECT spr round 2 (radius: 10)
+[01:01:01 -22600262.754707] SPR radius for FAST iterations: 5 (autodetect)
+[01:01:01 -22600262.754707] Model parameter optimization (eps = 3.000000)
+[01:17:41 -22599466.086501] FAST spr round 1 (radius: 5)
+[01:30:40 -22598187.760120] FAST spr round 2 (radius: 5)
+[01:42:34 -22596086.265098] FAST spr round 3 (radius: 5)
+[01:52:48 -22595666.238257] FAST spr round 4 (radius: 5)
+[02:02:51 -22595387.621604] FAST spr round 5 (radius: 5)
+[02:13:03 -22595114.801955] FAST spr round 6 (radius: 5)
+[02:23:56 -22594708.817846] FAST spr round 7 (radius: 5)
+[02:34:54 -22594591.539488] FAST spr round 8 (radius: 5)
+[02:45:15 -22594483.205974] FAST spr round 9 (radius: 5)
+[02:55:29 -22594406.629198] FAST spr round 10 (radius: 5)
+[03:05:40 -22594355.001564] FAST spr round 11 (radius: 5)
+[03:16:07 -22594315.831012] FAST spr round 12 (radius: 5)
+[03:26:08 -22594308.227997] FAST spr round 13 (radius: 5)
+[03:36:27 -22594290.315433] FAST spr round 14 (radius: 5)
+[03:46:34 -22594290.315432] Model parameter optimization (eps = 1.000000)
+[04:09:57 -22593910.812990] SLOW spr round 1 (radius: 5)
+[04:54:58 -22591030.256837] SLOW spr round 2 (radius: 5)
+[05:28:24 -22590735.739953] SLOW spr round 3 (radius: 5)
+[06:01:55 -22590605.062086] SLOW spr round 4 (radius: 5)
+[06:34:37 -22590525.106846] SLOW spr round 5 (radius: 5)
+[07:07:16 -22590525.106720] SLOW spr round 6 (radius: 10)
+[07:40:34 -22590525.106719] SLOW spr round 7 (radius: 15)
+[08:54:45 -22590525.106719] SLOW spr round 8 (radius: 20)
+[09:25:20 -22590525.106719] SLOW spr round 9 (radius: 25)
+[09:35:52 -22590525.106719] Model parameter optimization (eps = 0.100000)
+
+[09:58:26] ML tree search #1, logLikelihood: -22590183.417219
+
+
+Final LogLikelihood: -22590183.417219
+
+AIC score: 45201226.834437 / AICc score: 45201334.328232 / BIC score: 45331871.271558
+Free parameters (model + branch lengths): 10430
+
+Best ML tree saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenated/besttree/besttree_5.raxml.bestTree
+Optimized model saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenated/besttree/besttree_5.raxml.bestModel
+
+Execution log saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenated/besttree/besttree_5.raxml.log
+
+Analysis started: 05-Jul-2021 15:26:12 / finished: 06-Jul-2021 01:24:39
+
+Elapsed time: 35906.986 seconds
+

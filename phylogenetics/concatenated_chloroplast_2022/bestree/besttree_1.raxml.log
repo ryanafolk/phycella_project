@@ -1,0 +1,124 @@
+
+RAxML-NG v. 0.7.0 BETA released on 22.10.2018 by The Exelixis Lab.
+Authors: Alexey Kozlov, Alexandros Stamatakis, Diego Darriba, Tomas Flouri, Benoit Morel.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+WARNING: This is a BETA release, please use at your own risk!
+
+RAxML-NG was called as follows:
+
+raxml-ng --model cpDNA_6part.txt --msa cpDNA_6IV2020_codnoncod.phy --prefix besttree_1 --seed 19971 --tree pars{1} --threads 24
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): parsimony (1)
+  random seed: 19971
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  branch lengths: linked (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: PTHREADS (24 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: cpDNA_6IV2020_codnoncod.phy
+[00:00:00] Loaded alignment with 161 taxa and 132374 sites
+
+WARNING: Fully undetermined columns found: 15
+
+NOTE: Reduced alignment (with duplicates and gap-only sites/taxa removed) 
+NOTE: was saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenatedchloroplast_redo/besttree/besttree_1.raxml.reduced.phy
+
+NOTE: The corresponding reduced partition file was saved to:
+/mnt/scratch/folklab/rfolk/nicolas_concatenatedchloroplast_redo/besttree/besttree_1.raxml.reduced.partition
+
+Alignment comprises 6 partitions and 22713 patterns
+
+Partition 0: codLSC
+Model: GTR+FO+G4m
+Alignment sites / patterns: 42860 / 3139
+Gaps: 0.88 %
+Invariant sites: 5.02 %
+
+Partition 1: codSSC
+Model: GTR+FO+G4m
+Alignment sites / patterns: 13892 / 4018
+Gaps: 7.06 %
+Invariant sites: 22.45 %
+
+Partition 2: codIR
+Model: GTR+FO+G4m
+Alignment sites / patterns: 11511 / 405
+Gaps: 0.68 %
+Invariant sites: 2.14 %
+
+Partition 3: noncodLSC
+Model: GTR+FO+G4m
+Alignment sites / patterns: 43708 / 12208
+Gaps: 7.71 %
+Invariant sites: 21.56 %
+
+Partition 4: noncodSSC
+Model: GTR+FO+G4m
+Alignment sites / patterns: 4913 / 2606
+Gaps: 17.42 %
+Invariant sites: 42.03 %
+
+Partition 5: noncodIR
+Model: GTR+FO+G4m
+Alignment sites / patterns: 15475 / 337
+Gaps: 1.09 %
+Invariant sites: 1.12 %
+
+
+NOTE: Binary MSA file created: besttree_1.raxml.rba
+
+
+WARNING: You might be using too many threads (24) for your alignment with 132359 unique patterns.
+NOTE:    For the optimal throughput, please consider using fewer threads 
+NOTE:    and parallelize across starting trees/bootstrap replicates.
+NOTE:    As a general rule-of-thumb, please assign at least 200-1000 alignment patterns per thread.
+
+[00:00:01] Generating 1 parsimony starting tree(s) with 161 taxa
+[00:00:02] Data distribution: max. partitions/sites/weight per thread: 2 / 947 / 15152
+
+Starting ML tree search with 1 distinct starting trees
+
+[00:00:02 -962345.257673] Initial branch length optimization
+[00:00:03 -255948.863209] Model parameter optimization (eps = 10.000000)
+[00:00:09 -248188.488971] AUTODETECT spr round 1 (radius: 5)
+[00:00:14 -248047.077449] AUTODETECT spr round 2 (radius: 10)
+[00:00:29 -248047.077230] SPR radius for FAST iterations: 5 (autodetect)
+[00:00:29 -248047.077230] Model parameter optimization (eps = 3.000000)
+[00:00:30 -248046.876845] FAST spr round 1 (radius: 5)
+[00:00:36 -248045.115689] FAST spr round 2 (radius: 5)
+[00:00:42 -248045.115273] Model parameter optimization (eps = 1.000000)
+[00:00:43 -248045.096155] SLOW spr round 1 (radius: 5)
+[00:01:03 -248040.755976] SLOW spr round 2 (radius: 5)
+[00:01:21 -248037.919456] SLOW spr round 3 (radius: 5)
+[00:01:40 -248037.919040] SLOW spr round 4 (radius: 10)
+[00:01:58 -248037.918623] SLOW spr round 5 (radius: 15)
+[00:02:40 -248037.918206] SLOW spr round 6 (radius: 20)
+[00:03:14 -248037.917789] SLOW spr round 7 (radius: 25)
+[00:03:21 -248037.917371] Model parameter optimization (eps = 0.100000)
+
+[00:03:22] ML tree search #1, logLikelihood: -248037.916043
+
+
+Final LogLikelihood: -248037.916043
+
+AIC score: 496821.832085 / AICc score: 496823.945992 / BIC score: 500474.722991
+Free parameters (model + branch lengths): 373
+
+Best ML tree saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenatedchloroplast_redo/besttree/besttree_1.raxml.bestTree
+Optimized model saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenatedchloroplast_redo/besttree/besttree_1.raxml.bestModel
+
+Execution log saved to: /mnt/scratch/folklab/rfolk/nicolas_concatenatedchloroplast_redo/besttree/besttree_1.raxml.log
+
+Analysis started: 10-Aug-2022 08:11:10 / finished: 10-Aug-2022 08:14:32
+
+Elapsed time: 202.312 seconds
+
