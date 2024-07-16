@@ -19,7 +19,7 @@ Files for molecular and morphological multidimensional scaling analyses (MDS). S
 In the main directory, r scripts give the analysis with all taxa (`MDS_combined.r`) and subset analyses following the BPP taxon subsets (`MDS_set1.r`, `MDS_set2.r`, `MDS_set3.r`, and `MDS_set4.r`), with corresponding CSVs giving the distance matrices for each MDS. Plots from these R scripts are given in the `plots` directory and input molecular data are given in the `alignments` directory.
 
 ### morphological_MDS
-There are two subdirectories with the same missing data treatment as iBPP (missing data kept or removed). In each analysis, the input trait data are in `phycella_trait.py`, the analysis script to generate the distance matrix is `phycella_trait.py`, the distance matrix is `distancematrix.csv`, the MDS script is `pcoa_traitdata.r`, and R plots are in the subdirectory `plots`.
+There are two subdirectories with the same missing data treatment as iBPP (missing data kept or removed). In each analysis, the input trait data are in `trait_data`, the analysis script to generate the distance matrix is `phycella_trait.py`, the distance matrix is `distancematrix.csv`, the MDS script is `pcoa_traitdata.r`, and R plots are in the subdirectory `plots`.
 
 ## phylogenetics
 This directory gives trees and alignments for phylogenetic analyses. The subdirectories are:
