@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/829089884.svg)](https://doi.org/10.5281/zenodo.15096589)
 # phycella_project
 
 ## baits
